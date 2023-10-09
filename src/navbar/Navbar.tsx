@@ -47,8 +47,10 @@ function Navbar() {
   return (
     <>
       <AppBar
+        component="nav"
         sx={{
           backgroundColor: "#fff",
+          position:"static"
         }}
       >
         <Toolbar>
@@ -109,7 +111,13 @@ function Navbar() {
               open={state["top"]}
               onClose={toggleDrawer("top", false)}
             >
-              <Box sx={{ display: "flex", justifyContent: "end" }}>
+              <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+                <img
+                  src="/public/assets/Logo.jpg"
+                  alt="srisairamconsultancy"
+                  className="logo-img"
+                  style={{ margin: "10px" }}
+                />
                 <IconButton onClick={toggleDrawer("top", false)}>
                   <CloseIcon
                     sx={{
