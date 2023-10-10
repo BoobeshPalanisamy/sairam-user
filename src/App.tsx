@@ -5,6 +5,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/home/Home";
 import { ThemeProvider } from "@emotion/react";
 import theme from "./theme/theme";
+import Contact from "./pages/home/contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path={paths.ROOT} element={<Layout />}>
               <Route index element={<Home />}></Route>
               <Route path={paths.HOME} element={<Home />}></Route>
+              <Route path={paths.CONTACT} element={<Contact />}></Route>
             </Route>
           </Routes>
         </ThemeProvider>

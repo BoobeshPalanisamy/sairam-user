@@ -1,0 +1,61 @@
+import { Box } from "@mui/material";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import { Instagram } from "@mui/icons-material";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+
+function ContactAddress() {
+  return (
+    <>
+      <h1>Contact Us </h1>
+      <Box sx={{ display: "flex", paddingTop: "10px" }}>
+        <LocationOnIcon />
+        <Box sx={{ paddingLeft: "10px" }}>
+          {["81225 80079", "99943 37623", "74181 37623"].map(
+            (phoneNumber, index) => (
+              <h3 key={index} style={{ fontWeight: "100" }}>
+                {phoneNumber}
+              </h3>
+            )
+          )}
+        </Box>
+      </Box>
+      <Box sx={{ display: "flex", padding: "10px 0" }}>
+        <MailOutlineIcon />
+        <h3 style={{ fontWeight: "100", paddingLeft: "10px" }}>
+          ssacs2023@gmail.com
+        </h3>
+      </Box>
+      <Box sx={{ display: "flex" }}>
+        <LocationOnIcon />
+        <Box sx={{ paddingLeft: "10px" }}>
+          {[
+            "Krishna Tower",
+            "Near Malar School",
+            "CollegeRoad",
+            "P.Velur",
+            "Namakkal Dt - 638 182",
+          ].map((address, index) => (
+            <h3 key={index} style={{ fontWeight: "100" }}>
+              {address}
+            </h3>
+          ))}
+        </Box>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "left",
+          paddingTop: "10px",
+        }}
+      >
+        <FacebookOutlinedIcon sx={{ fontSize: "2.5rem", padding: "0 10px" }} />
+        <Instagram sx={{ fontSize: "2.5rem", padding: "0 10px" }} />
+        <WhatsAppIcon sx={{ fontSize: "2.5rem", padding: "0 10px" }} />
+      </Box>
+    </>
+  );
+}
+
+export default ContactAddress;

@@ -50,7 +50,7 @@ function Navbar() {
         component="nav"
         sx={{
           backgroundColor: "#fff",
-          position:"static"
+          position: "sticky",
         }}
       >
         <Toolbar>
@@ -87,8 +87,10 @@ function Navbar() {
                   cursor: "pointer",
                   padding: "5px",
                   "&:hover": {
-                    background: "#d3eff5",
-                    borderRadius: "10px",
+                    background: theme.palette.primary.main,
+                    borderRadius: "50px",
+                    color: "white",
+                    paddingLeft: "10px",
                   },
                 }}
                 key={index}
@@ -122,6 +124,7 @@ function Navbar() {
                   <CloseIcon
                     sx={{
                       fontSize: "35px",
+                      color: "#f2465d",
                     }}
                   />
                 </IconButton>
@@ -141,7 +144,8 @@ function Navbar() {
                     display: "flex",
                     justifyContent: "center",
                     "&:hover": {
-                      background: "#dadfe0",
+                      background: theme.palette.secondary.main,
+                      color: "#fff",
                     },
                   }}
                   key={index}

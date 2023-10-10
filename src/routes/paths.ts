@@ -1,4 +1,5 @@
 export enum paths {
   ROOT = "/",
-  HOME = "/home"
+  HOME = "/home",
+  CONTACT="/contact-us"
 }
