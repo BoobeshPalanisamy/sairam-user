@@ -13,7 +13,7 @@ function Contact() {
   return (
     <>
       <PageBanner
-        imageUrl="/public/assets/sairam_contact_banner.jpg"
+        imageUrl="public/assets/sairam_contact_banner.jpg"
         content="Contact"
       />
       <Box sx={{ marginTop: "30px" }}>
@@ -30,13 +30,13 @@ function Contact() {
             <Grid item md={6}>
               <Box sx={{ display: "flex" }}>
                 <Box>
-                  <ContactAddress />
+                  <ContactAddress color="#4962fd" />
                 </Box>
                 <img
-                  src="/public/assets/LocationQR.png"
+                  src="public/assets/LocationQR.png"
                   alt="sairam-location"
-                  height="100px"
-                  width="100px"
+                  height="120px"
+                  width="120px"
                 />
               </Box>
             </Grid>

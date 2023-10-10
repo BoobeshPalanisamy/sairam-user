@@ -15,10 +15,19 @@
   margin-right: 10px;
 }
 
+/* .contact-banner {
+  background-image: url("/public/assets/sairam_contact_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 400px;
+  opacity: 0.5;
+} */
+
 .page-banner-area {
   position: relative;
   z-index: 1;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 150px;

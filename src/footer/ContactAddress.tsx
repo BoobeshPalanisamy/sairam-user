@@ -4,13 +4,23 @@ import { Instagram } from "@mui/icons-material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
-function ContactAddress() {
+interface IProps {
+  color: string;
+}
+
+function ContactAddress(props: IProps) {  
+  const { color } = props;
   return (
     <>
       <h1>Contact Us </h1>
       <Box sx={{ display: "flex", paddingTop: "10px" }}>
-        <LocationOnIcon />
+        <LocalPhoneIcon
+          sx={{
+            color: { color },
+          }}
+        />
         <Box sx={{ paddingLeft: "10px" }}>
           {["81225 80079", "99943 37623", "74181 37623"].map(
             (phoneNumber, index) => (
@@ -22,13 +32,21 @@ function ContactAddress() {
         </Box>
       </Box>
       <Box sx={{ display: "flex", padding: "10px 0" }}>
-        <MailOutlineIcon />
+        <MailOutlineIcon
+          sx={{
+            color: { color },
+          }}
+        />
         <h3 style={{ fontWeight: "100", paddingLeft: "10px" }}>
           ssacs2023@gmail.com
         </h3>
       </Box>
       <Box sx={{ display: "flex" }}>
-        <LocationOnIcon />
+        <LocationOnIcon
+          sx={{
+            color: { color },
+          }}
+        />
         <Box sx={{ paddingLeft: "10px" }}>
           {[
             "Krishna Tower",
@@ -50,9 +68,27 @@ function ContactAddress() {
           paddingTop: "10px",
         }}
       >
-        <FacebookOutlinedIcon sx={{ fontSize: "2.5rem", padding: "0 10px" }} />
-        <Instagram sx={{ fontSize: "2.5rem", padding: "0 10px" }} />
-        <WhatsAppIcon sx={{ fontSize: "2.5rem", padding: "0 10px" }} />
+        <FacebookOutlinedIcon
+          sx={{
+            fontSize: "2.5rem",
+            padding: "0 10px",
+            color: { color },
+          }}
+        />
+        <Instagram
+          sx={{
+            fontSize: "2.5rem",
+            padding: "0 10px",
+            color: { color },
+          }}
+        />
+        <WhatsAppIcon
+          sx={{
+            fontSize: "2.5rem",
+            padding: "0 10px",
+            color: { color },
+          }}
+        />
       </Box>
     </>
   );

@@ -44,7 +44,7 @@ function Footer() {
               </List>
             </Grid>
             <Grid item md={4}>
-              <ContactAddress />
+              <ContactAddress color="#fff" />
             </Grid>
           </Grid>
         </Container>

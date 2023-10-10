@@ -13,7 +13,6 @@ function PageBanner(props: IProps) {
         className="page-banner-area"
         style={{
           backgroundImage: `url(${imageUrl})`,
-          height: "20px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
