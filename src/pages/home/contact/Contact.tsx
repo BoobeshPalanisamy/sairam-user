@@ -15,7 +15,7 @@ function Contact() {
   return (
     <>
       <PageBanner
-        imageUrl="public/assets/sairam_contact_banner.jpg"
+        imageUrl="/assets/sairam_contact_banner.jpg"
         content="Contact"
       />
       <Box sx={{ marginTop: "30px" }}>
@@ -38,7 +38,7 @@ function Contact() {
                 </Fade>
                 <Zoom>
                   <img
-                    src="public\assets\LocationQR.png"
+                    src="/assets/LocationQR.png"
                     alt="sairam-location"
                     height="120px"
                     width="120px"
