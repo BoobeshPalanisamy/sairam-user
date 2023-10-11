@@ -55,7 +55,7 @@ function Navbar() {
       >
         <Toolbar>
           <img
-            src="public/assets/Logo.jpg"
+            src="/assets/Logo.jpg"
             alt="srisairamconsultancy"
             className="logo-img"
           />
@@ -115,7 +115,7 @@ function Navbar() {
             >
               <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                 <img
-                  src="public/assets/Logo.jpg"
+                  src="/assets/Logo.jpg"
                   alt="srisairamconsultancy"
                   className="logo-img"
                   style={{ margin: "10px" }}
