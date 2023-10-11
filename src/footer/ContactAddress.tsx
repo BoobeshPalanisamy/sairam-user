@@ -5,6 +5,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import Bounce from "react-reveal/Bounce";
 
 interface IProps {
   color: string;
@@ -68,27 +69,33 @@ function ContactAddress(props: IProps) {
           paddingTop: "10px",
         }}
       >
-        <FacebookOutlinedIcon
-          sx={{
-            fontSize: "2.5rem",
-            padding: "0 10px",
-            color: { color },
-          }}
-        />
-        <Instagram
-          sx={{
-            fontSize: "2.5rem",
-            padding: "0 10px",
-            color: { color },
-          }}
-        />
-        <WhatsAppIcon
-          sx={{
-            fontSize: "2.5rem",
-            padding: "0 10px",
-            color: { color },
-          }}
-        />
+        <Bounce>
+          <FacebookOutlinedIcon
+            sx={{
+              fontSize: "2.5rem",
+              padding: "0 10px",
+              color: { color },
+            }}
+          />
+        </Bounce>
+        <Bounce>
+          <Instagram
+            sx={{
+              fontSize: "2.5rem",
+              padding: "0 10px",
+              color: { color },
+            }}
+          />
+        </Bounce>
+        <Bounce>
+          <WhatsAppIcon
+            sx={{
+              fontSize: "2.5rem",
+              padding: "0 10px",
+              color: { color },
+            }}
+          />
+        </Bounce>
       </Box>
     </>
   );

@@ -8,6 +8,8 @@ import {
 } from "@mui/material";
 import ContactAddress from "../../../footer/ContactAddress";
 import PageBanner from "../../../components/PageBanner";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 function Contact() {
   return (
@@ -29,88 +31,97 @@ function Contact() {
           >
             <Grid item md={6}>
               <Box sx={{ display: "flex" }}>
-                <Box>
-                  <ContactAddress color="#4962fd" />
-                </Box>
-                <img
-                  src="public\assets\LocationQR.png"
-                  alt="sairam-location"
-                  height="120px"
-                  width="120px"
-                />
+                <Fade left duration={1000}>
+                  <Box>
+                    <ContactAddress color="#4962fd" />
+                  </Box>
+                </Fade>
+                <Zoom>
+                  <img
+                    src="public\assets\LocationQR.png"
+                    alt="sairam-location"
+                    height="120px"
+                    width="120px"
+                  />
+                </Zoom>
               </Box>
             </Grid>
             <Grid item md={6}>
               <Box>
-                <Container>
-                  <form
-                    style={{
-                      backgroundColor: "#f0f4f5",
-                      padding: "20px",
-                      borderRadius: "20px",
-                      boxShadow: "2px 2px 2px 2px rgba(0, 0, 0, 0.1)",
-                    }}
-                  >
-                    <Grid container spacing={2}>
-                      <Grid item xs={12}>
-                        <Typography variant="h4" sx={{ color: "black", mb: 2 }}>
-                          Contact Us
-                        </Typography>
-                        <TextField
-                          label="Enter Child Name"
-                          fullWidth
-                          size="small"
-                          required
-                        />
+                <Fade right duration={500}>
+                  <Container>
+                    <form
+                      style={{
+                        backgroundColor: "#f0f4f5",
+                        padding: "20px",
+                        borderRadius: "20px",
+                        boxShadow: "2px 2px 2px 2px rgba(0, 0, 0, 0.1)",
+                      }}
+                    >
+                      <Grid container spacing={2}>
+                        <Grid item xs={12}>
+                          <Typography
+                            variant="h4"
+                            sx={{ color: "black", mb: 2 }}
+                          >
+                            Contact Us
+                          </Typography>
+                          <TextField
+                            label="Enter Child Name"
+                            fullWidth
+                            size="small"
+                            required
+                          />
+                        </Grid>
+                        <Grid item xs={12}>
+                          <TextField
+                            label="Enter Parent Name"
+                            fullWidth
+                            size="small"
+                            required
+                          />
+                        </Grid>
+                        <Grid item xs={12}>
+                          <TextField
+                            label="Enter Phone no"
+                            required
+                            fullWidth
+                            size="small"
+                          />
+                        </Grid>
+                        <Grid item xs={12}>
+                          <TextField
+                            label="Enter Email"
+                            fullWidth
+                            required
+                            type="email"
+                            size="small"
+                          />
+                        </Grid>
+                        <Grid item xs={12}>
+                          <TextField
+                            label="Message"
+                            multiline
+                            rows={4}
+                            fullWidth
+                          />
+                        </Grid>
+                        <Grid item xs={12} textAlign={"center"}>
+                          <Button
+                            variant="contained"
+                            type="submit"
+                            sx={{
+                              mt: 1,
+                            }}
+                            fullWidth
+                          >
+                            Submit
+                          </Button>
+                        </Grid>
                       </Grid>
-                      <Grid item xs={12}>
-                        <TextField
-                          label="Enter Parent Name"
-                          fullWidth
-                          size="small"
-                          required
-                        />
-                      </Grid>
-                      <Grid item xs={12}>
-                        <TextField
-                          label="Enter Phone no"
-                          required
-                          fullWidth
-                          size="small"
-                        />
-                      </Grid>
-                      <Grid item xs={12}>
-                        <TextField
-                          label="Enter Email"
-                          fullWidth
-                          required
-                          type="email"
-                          size="small"
-                        />
-                      </Grid>
-                      <Grid item xs={12}>
-                        <TextField
-                          label="Message"
-                          multiline
-                          rows={4}
-                          fullWidth
-                        />
-                      </Grid>
-                      <Grid item xs={12} textAlign={"center"}>
-                        <Button
-                          variant="contained"
-                          type="submit"
-                          sx={{
-                            mt: 1,
-                          }}
-                          fullWidth
-                        >
-                          Submit
-                        </Button>
-                      </Grid>
-                    </Grid>
-                  </form>
-                </Container>
+                    </form>
+                  </Container>
+                </Fade>
               </Box>
             </Grid>
           </Grid>
