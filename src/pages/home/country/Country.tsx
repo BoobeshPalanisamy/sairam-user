@@ -64,7 +64,7 @@ function Country() {
   return (
     <>
       <PageBanner
-        imageUrl="/assets/sairam_country_banner.jpeg"
+        imageUrl="assets/sairam_country_banner.jpeg"
         content="Country"
       />
       <Container sx={{ paddingTop: "20px" }}>
