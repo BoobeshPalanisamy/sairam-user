@@ -33,7 +33,7 @@ function Contact() {
                   <ContactAddress color="#4962fd" />
                 </Box>
                 <img
-                  src="public/assets/LocationQR.png"
+                  src="public\assets\LocationQR.png"
                   alt="sairam-location"
                   height="120px"
                   width="120px"
