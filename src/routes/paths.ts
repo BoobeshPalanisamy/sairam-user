@@ -3,4 +3,5 @@ export enum paths {
   HOME = "/home",
   CONTACT = "/contact-us",
   COUNTRY = "/country",
+  ABOUTUS = "/aboutus",
 }
