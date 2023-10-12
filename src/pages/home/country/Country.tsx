@@ -15,7 +15,7 @@ import Fade from "react-reveal/Fade";
 function Country() {
   const countryDetails = [
     {
-      cardImageUrl: "/assets/sairam_country_banner.jpeg",
+      cardImageUrl: "assets/sairam_country_banner.jpeg",
       cardTitle: "UK",
       cardContent:
         " The UK is renowned for its world-class universities, offering top-notch education, and its vibrant cities including London, which is a global financial hub.",
@@ -24,7 +24,7 @@ function Country() {
         " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
-      cardImageUrl: "/assets/sairam_country_banner.jpeg",
+      cardImageUrl: "assets/sairam_country_banner.jpeg",
       cardTitle: "Canada",
       cardContent:
         " Canada is renowned for its world-class universities, offering top-notch education, and its vibrant cities including Toronto, which is a global financial hub.",
@@ -33,7 +33,7 @@ function Country() {
         " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
-      cardImageUrl: "public/assets/sairam_country_banner.jpeg",
+      cardImageUrl: "assets/sairam_country_banner.jpeg",
       cardTitle: "USA",
       cardContent:
         " The USA is renowned for its world-class universities, offering top-notch education, and its vibrant cities including New York, which is a global financial hub.",
@@ -42,7 +42,7 @@ function Country() {
         " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
-      cardImageUrl: "/assets/sairam_country_banner.jpeg",
+      cardImageUrl: "assets/sairam_country_banner.jpeg",
       cardTitle: "New Zealand",
       cardContent:
         " New Zealand is renowned for its world-class universities, offering top-notch education, and its natural beauty.",
@@ -51,7 +51,7 @@ function Country() {
         " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
-      cardImageUrl: "/assets/sairam_country_banner.jpeg",
+      cardImageUrl: "assets/sairam_country_banner.jpeg",
       cardTitle: "Australia",
       cardContent:
         " Australia is renowned for its world-class universities, offering top-notch education, and its diverse landscapes.",
