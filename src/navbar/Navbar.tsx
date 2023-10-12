@@ -31,7 +31,7 @@ function Navbar() {
     { name: "Contact Us", linkURL: paths.CONTACT },
   ];
 
-  const [state, setState] = useState({
+  const [state, setState] = useState<{ top: boolean }>({
     top: false,
   });
 
@@ -50,7 +50,7 @@ function Navbar() {
 
   const handleNavigate = (linkURL: string) => {
     navigate(linkURL);
-    setState(false);
+    setState({ top: false });
   };
 
   return (
