@@ -11,20 +11,24 @@ import theme from "../theme/theme";
 import MenuIcon from "@mui/icons-material/Menu";
 import React, { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
+import { useLocation, useNavigate } from "react-router";
+import { paths } from "../routes/paths";
 
 type Anchor = "top";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const location = useLocation();
   const matches = useMediaQuery("(max-width:1000px)");
 
   const navMenus = [
-    { name: "Home", linkurl: "" },
-    { name: "OurServices", linkurl: "" },
-    { name: "Country", linkurl: "" },
-    { name: "How it works", linkurl: "" },
-    { name: "ClientFeedback", linkurl: "" },
-    { name: "About Us", linkurl: "" },
-    { name: "Contact Us", linkurl: "" },
+    { name: "Home", linkURL: paths.HOME },
+    { name: "OurServices", linkURL: "" },
+    { name: "Country", linkURL: paths.COUNTRY },
+    { name: "How it works", linkURL: "" },
+    { name: "ClientFeedback", linkURL: "" },
+    { name: "About Us", linkURL: paths.ABOUTUS },
+    { name: "Contact Us", linkURL: paths.CONTACT },
   ];
 
   const [state, setState] = useState({
@@ -43,6 +47,11 @@ function Navbar() {
       }
       setState({ ...state, [anchor]: open });
     };
+
+  const handleNavigate = (linkURL: string) => {
+    navigate(linkURL);
+    setState(false);
+  };
 
   return (
     <>
@@ -82,18 +91,26 @@ function Navbar() {
                   mr: 2,
                   display: matches ? "none" : "flex",
                   fontWeight: 700,
-                  color: theme.palette.primary.main,
                   textDecoration: "none",
                   cursor: "pointer",
                   padding: "5px",
+                  color:
+                    location.pathname === menu.linkURL
+                      ? "#fff"
+                      : theme.palette.secondary.main,
+                  backgroundColor:
+                    location.pathname === menu.linkURL
+                      ? theme.palette.secondary.main
+                      : "transparent",
+                  borderRadius: "50px",
                   "&:hover": {
                     background: theme.palette.primary.main,
-                    borderRadius: "50px",
                     color: "white",
                     paddingLeft: "10px",
                   },
                 }}
                 key={index}
+                onClick={() => handleNavigate(menu.linkURL)}
               >
                 {menu.name}
               </Typography>
@@ -138,17 +155,25 @@ function Navbar() {
                   sx={{
                     mr: 2,
                     fontWeight: 700,
-                    color: theme.palette.primary.main,
                     textDecoration: "none",
                     cursor: "pointer",
                     display: "flex",
                     justifyContent: "center",
+                    backgroundColor:
+                      location.pathname === menu.linkURL
+                        ? theme.palette.secondary.main
+                        : "transparent",
+                    color:
+                      location.pathname === menu.linkURL
+                        ? "#fff"
+                        : theme.palette.primary.main,
                     "&:hover": {
                       background: theme.palette.secondary.main,
                       color: "#fff",
                     },
                   }}
                   key={index}
+                  onClick={() => handleNavigate(menu.linkURL)}
                 >
                   {menu.name}
                 </Typography>
