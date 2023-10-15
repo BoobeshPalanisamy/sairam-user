@@ -24,7 +24,7 @@ function FeedBack() {
     infinite: true,
     speed: 500,
     slidesToShow: slidesToShow,
-    slidesToScroll: 2,
+    slidesToScroll: slidesToScroll,
     autoplay: true,
     arrow: true,
     accessibility: true,
