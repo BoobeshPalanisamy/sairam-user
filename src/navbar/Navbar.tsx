@@ -170,6 +170,7 @@ function Navbar() {
                       background: theme.palette.secondary.main,
                       color: "#fff",
                     },
+                    paddingBottom: "10px",
                   }}
                   key={index}
                   onClick={() => handleNavigate(menu.linkURL)}

@@ -1,10 +1,11 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Typography, useMediaQuery } from "@mui/material";
 import FeedBack from "../../components/FeedBack";
 import FlagSlider from "../../components/FlagSlider";
 import theme from "../../theme/theme";
 import TrainingAndServiceHomePage from "../../components/TrainingAndServiceHomePage";
 
 function Home() {
+  const matches = useMediaQuery("(max-width:600px)");
   return (
     <>
       <Box>
@@ -12,7 +13,7 @@ function Home() {
           src="assets\home\homepage_banner_sairam.png"
           alt="srisairam-academy-consultancy"
           width="100%"
-          height="500px"
+          style={{ height: matches ? "250px" : "500px" }}
         />
       </Box>
       <Container>
