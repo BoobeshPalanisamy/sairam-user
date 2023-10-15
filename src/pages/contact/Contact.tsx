@@ -6,8 +6,8 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import ContactAddress from "../../../footer/ContactAddress";
-import PageBanner from "../../../components/PageBanner";
+import ContactAddress from "../../footer/ContactAddress";
+import PageBanner from "../../components/PageBanner";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 
@@ -15,7 +15,7 @@ function Contact() {
   return (
     <>
       <PageBanner
-        imageUrl="assets/sairam_contact_banner.jpg"
+        imageUrl="assets\contactus\sairam_contact_banner.jpg"
         content="Contact"
       />
       <Box sx={{ marginTop: "30px" }}>
@@ -38,7 +38,7 @@ function Contact() {
                 </Fade>
                 <Zoom>
                   <img
-                    src="assets/LocationQR.png"
+                    src="assets\contactus\LocationQR.png"
                     alt="sairam-location"
                     height="120px"
                     width="120px"
@@ -75,7 +75,7 @@ function Contact() {
                         </Grid>
                         <Grid item xs={12}>
                           <TextField
-                            label="Enter Parent Name"
+                            label="Enter Age"
                             fullWidth
                             size="small"
                             required

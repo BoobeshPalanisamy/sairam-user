@@ -23,10 +23,8 @@ function Navbar() {
 
   const navMenus = [
     { name: "Home", linkURL: paths.HOME },
-    { name: "OurServices", linkURL: "" },
+    { name: "OurServices", linkURL: paths.OURSERVICES },
     { name: "Country", linkURL: paths.COUNTRY },
-    { name: "How it works", linkURL: "" },
-    { name: "ClientFeedback", linkURL: "" },
     { name: "About Us", linkURL: paths.ABOUTUS },
     { name: "Contact Us", linkURL: paths.CONTACT },
   ];
@@ -154,6 +152,7 @@ function Navbar() {
                   component="a"
                   sx={{
                     mr: 2,
+                    width: "100%",
                     fontWeight: 700,
                     textDecoration: "none",
                     cursor: "pointer",

@@ -1,6 +1,6 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
-import PageBanner from "../../../components/PageBanner";
+import PageBanner from "../../components/PageBanner";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import { Instagram } from "@mui/icons-material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -11,7 +11,7 @@ function AboutUs() {
   return (
     <>
       <PageBanner
-        imageUrl="assets\aboutus_banner_sairam.jpeg"
+        imageUrl="assets\aboutus\aboutus_banner_sairam.jpeg"
         content="AboutUs"
       />
       <Grid
@@ -27,7 +27,7 @@ function AboutUs() {
               <img
                 height="100%"
                 width="100%"
-                src="assets\aboutpage_content_image.png"
+                src="assets\aboutus\aboutpage_content_image.png"
                 alt="about-sairam"
                 style={{ borderRadius: "5px" }}
               />
@@ -51,9 +51,9 @@ function AboutUs() {
           <Fade right>
             <Box sx={{ margin: "0 20px" }}>
               <h1>About Us</h1>
-              <h2
-                style={{
-                  fontSize: "25px",
+              <Typography
+                sx={{
+                  fontSize: "20px",
                   fontWeight: "normal",
                   textAlign: "justify",
                 }}
@@ -71,7 +71,7 @@ function AboutUs() {
                 reasonable. The generated Lorem Ipsum is therefore always free
                 from repetition, injected humour, or non-characteristic words
                 etc.
-              </h2>
+              </Typography>
             </Box>
           </Fade>
         </Grid>

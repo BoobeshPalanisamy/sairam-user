@@ -5,9 +5,10 @@ import Layout from "./layout/Layout";
 import Home from "./pages/home/Home";
 import { ThemeProvider } from "@emotion/react";
 import theme from "./theme/theme";
-import Contact from "./pages/home/contact/Contact";
-import Country from "./pages/home/country/Country";
-import AboutUs from "./pages/home/aboutus/AboutUs";
+import Contact from "./pages/contact/Contact";
+import Country from "./pages/country/Country";
+import AboutUs from "./pages/aboutus/AboutUs";
+import Ourservices from "./pages/ourservices/Ourservices";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path={paths.CONTACT} element={<Contact />}></Route>
               <Route path={paths.COUNTRY} element={<Country />}></Route>
               <Route path={paths.ABOUTUS} element={<AboutUs />}></Route>
+              <Route path={paths.OURSERVICES} element={<Ourservices />}></Route>
             </Route>
           </Routes>
         </ThemeProvider>
