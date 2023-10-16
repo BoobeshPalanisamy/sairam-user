@@ -28,6 +28,7 @@ function FeedBack() {
     autoplay: true,
     arrow: true,
     accessibility: true,
+    autoplaySpeed: 2000,
   };
   return (
     <>

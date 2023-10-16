@@ -80,7 +80,13 @@ function Navbar() {
           >
             SriSaiRam Consultancy
           </Typography>
-          <Box sx={{ display: "flex", position: "absolute", right: "20px" }}>
+          <Box
+            sx={{
+              display: "flex",
+              position: "absolute",
+              right: "20px",
+            }}
+          >
             {navMenus.map((menu, index) => (
               <Typography
                 noWrap
@@ -128,56 +134,58 @@ function Navbar() {
               open={state["top"]}
               onClose={toggleDrawer("top", false)}
             >
-              <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-                <img
-                  src="assets/Logo.jpg"
-                  alt="srisairamconsultancy"
-                  className="logo-img"
-                  style={{ margin: "10px" }}
-                />
-                <IconButton onClick={toggleDrawer("top", false)}>
-                  <CloseIcon
-                    sx={{
-                      fontSize: "35px",
-                      color: "#f2465d",
-                    }}
+              <Box>
+                <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+                  <img
+                    src="assets/Logo.jpg"
+                    alt="srisairamconsultancy"
+                    className="logo-img"
+                    style={{ margin: "10px" }}
                   />
-                </IconButton>
-              </Box>
+                  <IconButton onClick={toggleDrawer("top", false)}>
+                    <CloseIcon
+                      sx={{
+                        fontSize: "35px",
+                        color: "#f2465d",
+                      }}
+                    />
+                  </IconButton>
+                </Box>
 
-              {navMenus.map((menu, index) => (
-                <Typography
-                  variant="h5"
-                  noWrap
-                  component="a"
-                  sx={{
-                    mr: 2,
-                    width: "100%",
-                    fontWeight: 700,
-                    textDecoration: "none",
-                    cursor: "pointer",
-                    display: "flex",
-                    justifyContent: "center",
-                    backgroundColor:
-                      location.pathname === menu.linkURL
-                        ? theme.palette.secondary.main
-                        : "transparent",
-                    color:
-                      location.pathname === menu.linkURL
-                        ? "#fff"
-                        : theme.palette.primary.main,
-                    "&:hover": {
-                      background: theme.palette.secondary.main,
-                      color: "#fff",
-                    },
-                    paddingBottom: "10px",
-                  }}
-                  key={index}
-                  onClick={() => handleNavigate(menu.linkURL)}
-                >
-                  {menu.name}
-                </Typography>
-              ))}
+                {navMenus.map((menu, index) => (
+                  <Typography
+                    variant="h5"
+                    noWrap
+                    component="a"
+                    sx={{
+                      mr: 2,
+                      width: "100%",
+                      fontWeight: 700,
+                      textDecoration: "none",
+                      cursor: "pointer",
+                      display: "flex",
+                      justifyContent: "center",
+                      backgroundColor:
+                        location.pathname === menu.linkURL
+                          ? theme.palette.secondary.main
+                          : "transparent",
+                      color:
+                        location.pathname === menu.linkURL
+                          ? "#fff"
+                          : theme.palette.primary.main,
+                      "&:hover": {
+                        background: theme.palette.secondary.main,
+                        color: "#fff",
+                      },
+                      paddingBottom: "10px",
+                    }}
+                    key={index}
+                    onClick={() => handleNavigate(menu.linkURL)}
+                  >
+                    {menu.name}
+                  </Typography>
+                ))}
+              </Box>
             </Drawer>
           </Box>
         </Toolbar>

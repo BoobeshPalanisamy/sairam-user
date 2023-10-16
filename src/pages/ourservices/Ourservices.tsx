@@ -20,9 +20,13 @@ import {
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import theme from "../../theme/theme";
 import Fade from "react-reveal/Fade";
+import { useEffect } from "react";
 
 function Ourservices() {
   const matches = useMediaQuery("(min-width:1100px)");
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <PageBanner
