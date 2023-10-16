@@ -28,7 +28,7 @@ function Home() {
             sx={{
               textAlign: "center",
               paddingBottom: "20px",
-              fontSize: "30px",
+              fontSize: matches ? "20px" : "30px",
             }}
           >
             We are a trustworthy & best overseas education consultants
