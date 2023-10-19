@@ -71,7 +71,7 @@ function Contact() {
                             Contact Us
                           </Typography>
                           <TextField
-                            label="Enter Child Name"
+                            label="Enter Name"
                             fullWidth
                             size="small"
                             required
