@@ -1,7 +1,13 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { homePageTrainingAndService } from "../seed-data/seed-data";
+import { useNavigate } from "react-router";
+import { paths } from "../routes/paths";
 
 function TrainingAndServiceHomePage() {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate(paths.OURSERVICES);
+  };
   return (
     <>
       <Box sx={{ backgroundColor: "#d9f8fa", padding: "20px" }}>
@@ -16,7 +22,11 @@ function TrainingAndServiceHomePage() {
                 boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff",
               }}
             >
-              <Box key={index}>
+              <Box
+                key={index}
+                sx={{ cursor: "pointer" }}
+                onClick={handleNavigate}
+              >
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                   <img
                     src={content.image}

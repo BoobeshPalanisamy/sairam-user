@@ -33,3 +33,8 @@
   margin-left: -20px;
 } */
 
+.homepage-banner {
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+}

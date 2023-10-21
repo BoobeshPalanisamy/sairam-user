@@ -9,12 +9,40 @@ function Home() {
   return (
     <>
       <Box>
-        <img
-          src="assets\home\homepage_banner_sairam.png"
-          alt="srisairam-academy-consultancy"
-          width="100%"
-          style={{ height: matches ? "250px" : "500px" }}
-        />
+        <Box position="relative">
+          <img
+            src="assets\home\homepage_banner_sairam.jpg"
+            alt="srisairam-academy-consultancy"
+            width="100%"
+            style={{ height: matches ? "250px" : "500px" }}
+            className="homepage-banner"
+          />
+          <Box
+            sx={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              textAlign: "center",
+              width: "100%",
+            }}
+          >
+            <h1
+              style={{ fontSize: "40px", fontWeight: "bolder", color: "#fff" }}
+            >
+              SaiRam Consultancy and Academy
+            </h1>
+            <Typography
+              sx={{
+                fontSize: matches ? "25px" : "30px",
+                fontWeight: "700",
+                color: "orange",
+              }}
+            >
+              Study,Work,Live Abroad
+            </Typography>
+          </Box>
+        </Box>
       </Box>
       <Container>
         <Box>
