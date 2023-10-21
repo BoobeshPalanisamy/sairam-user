@@ -10,6 +10,7 @@ function TrainingAndServiceHomePage() {
             <Grid
               item
               md={3.5}
+              xs={6}
               sx={{
                 padding: "10px",
                 boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff",
