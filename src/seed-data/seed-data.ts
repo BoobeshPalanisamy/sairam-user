@@ -90,12 +90,38 @@ export const ourServices_communicationTraining = [
   },
 ];
 
-export const ourServices_academicGuidance = {
-  academyGuidance_content:
-    "Academic guidance is a professional service aimed to identify the problems that impede the student's ability to attain academic attainment. Academic guidance interaction with undergraduate requirements to assistance and support that increase awareness of students with their academic responsibilities.",
-  academywriting_content:
-    "Academic writing is a formal style of writing used in universities and scholarly publications. You'll encounter it in journal articles and books on academic topics, and you'll be expected to write your essays, research papers, and dissertation in academic style.",
-};
+export const ourServices_academicGuidance = [
+  {
+    image: "assets/ourservices/academicGuidance/assignment_sairam.png",
+    name: "Assignment Writing",
+    content:
+      "Having trouble with assignments? Don’t let yourself down with too many assignments on hand and let us conquer your Assignment troubles for you.",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/study_sairam.png",
+    name: "Dissertation Writing",
+    content:
+      "Don’t let lengthy dissertations get the best of you and let our experienced professionals finalize your dissertation on your desired topic.",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/research_sairam.png",
+    name: "Research Paper Writing",
+    content:
+      "No more tedious research paper writing or editing. With our industry-specific experts, get your papers approved without any hassle.",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/finance_sairam.png",
+    name: "Financial Analysis",
+    content:
+      "Are you one of those students who hate accountings or don’t like dealing with numbers? Get the perfect financial assignment help from internationally experienced professional writers who are academically qualified.",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/projects_sairam.png",
+    name: "Project Works",
+    content:
+      "Are you sitting all day and night writing down codes you don’t know about? Aren’t programming codes a headache for all you students? Leave it to our best IT experts to do the tiring coding for you.",
+  },
+];
 
 export const ourServices_jobGuidance = [
   {
@@ -137,33 +163,53 @@ export const countryFlag = [
 
 export const homePageTrainingAndService = [
   {
-    image: "assets/home/serviceandtraining/CV_writing_sairam.png",
+    image: "assets/home/serviceandtraining/IELTS-sairam.png",
     name: "IELTS_sairam",
-    content: "IELTS training and Councelling",
+    content: "IELTS training",
   },
   {
     image: "assets/home/serviceandtraining/oet_sairam.png",
     name: "OET_sairam",
-    content: "OET training and Councelling",
+    content: "OET training",
   },
   {
     image: "assets/home/serviceandtraining/profilewriting_sairam.png",
     name: "Profile_Writing_sairam",
-    content: "Profile writer company with an extensively experienced team",
+    content: "Profile writing",
   },
   {
     image: "assets/home/serviceandtraining/CV_writing_sairam.png",
     name: "CV_Writing_sairam",
-    content: "India’s Leading professional CV Writing services",
+    content: "CV Writing services",
   },
   {
     image: "assets/home/serviceandtraining/interview_training_sairam.png",
     name: "Interview_Training_sairam",
-    content: "Abroad Universities Interview Training",
+    content: "Interview Training",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/projects_sairam.png",
+    name: "project_works_sairam",
+    content: "Project Works",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/assignment_sairam.png",
+    name: "assignment_writing_sairam",
+    content: "Assignment Writing",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/finance_sairam.png",
+    name: "financial_analysis_sairam",
+    content: "Financial Analysis",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/research_sairam.png",
+    name: "research_paper_writing_sairam",
+    content: "Research Paper Writing",
   },
 ];
 
-export  const countryDetails = [
+export const countryDetails = [
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
     cardTitle: "UK",

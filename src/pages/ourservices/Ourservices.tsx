@@ -1,5 +1,9 @@
 import {
   Box,
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
   Container,
   Grid,
   List,
@@ -34,6 +38,7 @@ function Ourservices() {
         content="OurServices"
       />
       <Container>
+        {/* Student Visa */}
         <Fade left>
           <Grid container spacing={3} flexDirection="row-reverse" mt={2}>
             <Grid
@@ -85,6 +90,7 @@ function Ourservices() {
             </Grid>
           </Grid>
         </Fade>
+        {/* CareHome Visa */}
         <Fade right>
           <Grid container spacing={3} mt={2}>
             <Grid
@@ -120,6 +126,7 @@ function Ourservices() {
         </Fade>
       </Container>
 
+      {/* Communication Training */}
       <Box
         sx={{
           fontWeight: "700",
@@ -152,10 +159,20 @@ function Ourservices() {
                 <Paper
                   elevation={0}
                   key={index}
-                  sx={{ height: matches ? "350px" : "auto" }}
+                  sx={{
+                    height: matches ? "300px" : "auto",
+                    borderRadius: "20px",
+                    boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff;",
+                  }}
                 >
                   <Container>
-                    <Typography variant="h6" sx={{ textAlign: "justify" }}>
+                    <Typography
+                      sx={{
+                        textAlign: "justify",
+                        fontSize: "18px",
+                        padding: "10px 0",
+                      }}
+                    >
                       {service.content}
                     </Typography>
                   </Container>
@@ -166,54 +183,72 @@ function Ourservices() {
         </Container>
       </Box>
 
-      <Container>
-        <Fade left>
-          <Grid container spacing={3} flexDirection="row-reverse" mt={2}>
-            <Grid
-              item
-              xs={12}
-              md={4}
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <img
-                src="assets\ourservices\academic_guidance_sairam.jpeg"
-                alt="student_visa_sairam"
-                height="300px"
-                width="300px"
-                style={{ borderRadius: "50%" }}
-              />
-            </Grid>
-            <Grid item xs={12} md={8}>
-              <Box>
-                <Typography
-                  variant="h3"
-                  sx={{ fontWeight: "700", margin: "10px 0" }}
-                >
-                  Academic <span style={{ color: "orange" }}>Guidance</span>
-                </Typography>
-                <Typography sx={{ textAlign: "justify" }}>
-                  {ourServices_academicGuidance.academyGuidance_content}
-                </Typography>
-                <Typography
-                  variant="h5"
+      {/* Academic Guidance */}
+      <Box
+        sx={{
+          fontWeight: "700",
+          backgroundColor: "#f5f5f5",
+        }}
+        pb={2}
+      >
+        <Container>
+          <Typography variant="h3">
+            Academic &nbsp;
+            <span style={{ color: "orange", fontSize: "40px" }}>
+              Guidance & Works
+            </span>
+          </Typography>
+          <Grid
+            container
+            spacing={3}
+            mt={2}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
+            {ourServices_academicGuidance.map((service, index) => (
+              <Grid item md={4} key={index}>
+                <Card
                   sx={{
-                    fontWeight: "bolder",
-                    color: theme.palette.primary.main,
+                    borderRadius: "20px",
+                    boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff;",
+                    height: matches ? "420px" : "auto",
                   }}
                 >
-                  Academic Writing
-                </Typography>
-                <Typography sx={{ textAlign: "justify" }}>
-                  {ourServices_academicGuidance.academywriting_content}
-                </Typography>
-              </Box>
-            </Grid>
+                  <CardActionArea>
+                    <Box sx={{ display: "flex", justifyContent: "center" }}>
+                      <img
+                        src={service.image}
+                        alt={service.name}
+                        height="200px"
+                        width="200px"
+                      />
+                    </Box>
+                    <CardContent>
+                      <Typography
+                        gutterBottom
+                        variant="h5"
+                        component="div"
+                        sx={{ fontWeight: "bolder" }}
+                      >
+                        {service.name}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="text.secondary"
+                        sx={{ fontSize: "18px" }}
+                      >
+                        {service.content}
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Grid>
+            ))}
           </Grid>
-        </Fade>
+        </Container>
+      </Box>
+
+      <Container>
+        {/* Job Guidance */}
         <Fade right>
           <Grid container spacing={3} mt={2}>
             <Grid

@@ -7,7 +7,14 @@ function TrainingAndServiceHomePage() {
       <Box sx={{ backgroundColor: "#d9f8fa", padding: "20px" }}>
         <Grid container sx={{ display: "flex", justifyContent: "center" }}>
           {homePageTrainingAndService.map((content, index) => (
-            <Grid item md={4}>
+            <Grid
+              item
+              md={3.5}
+              sx={{
+                padding: "10px",
+                boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff",
+              }}
+            >
               <Box key={index}>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                   <img
