@@ -192,9 +192,9 @@ function Ourservices() {
       >
         <Container>
           <Typography variant="h3">
-            Academic &nbsp;
+            Academic
             <span style={{ color: "orange", fontSize: "40px" }}>
-              Guidance & Works
+              Works & Guidance
             </span>
           </Typography>
           <Grid

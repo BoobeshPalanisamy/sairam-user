@@ -133,13 +133,13 @@ function Contact() {
       </Box>
       <Box>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5865.863141553983!2d78.00123703445087!3d11.113824062465573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA2JzUyLjAiTiA3OMKwMDAnMTguNCJF!5e0!3m2!1sen!2sin!4v1696919174863!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.9851147700583!2d78.0051127!3d11.1144863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babd59049754957%3A0xb5f405938315a7f7!2sSri%20SaiRam%20Academy%20%26%20Career%20Services!5e0!3m2!1sen!2sin!4v1698233564339!5m2!1sen!2sin"
           width="100%"
           height="450"
           style={{ border: "0", marginTop: "20px" }}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+          // loading="lazy"
         ></iframe>
       </Box>
     </>
