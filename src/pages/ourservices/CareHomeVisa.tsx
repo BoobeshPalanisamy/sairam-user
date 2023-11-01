@@ -1,8 +1,7 @@
 import { Box, Container, Grid, Typography, useMediaQuery } from "@mui/material";
 import theme from "../../theme/theme";
-import {
-  HomeCareVisaPage_Cotent,
-} from "../../seed-data/seed-data";
+import { HomeCareVisaPage_Cotent } from "../../seed-data/seed-data";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 
 function CareHomeVisa() {
   const matches = useMediaQuery("(max-width:600px)");
@@ -49,8 +48,13 @@ function CareHomeVisa() {
               About CareHome Visa
             </Typography>
             {HomeCareVisaPage_Cotent.content.map((content, index) => (
-              <Typography key={index} textAlign="justify">
-                &#11162;&nbsp;{content}
+              <Typography
+                key={index}
+                textAlign="justify"
+                sx={{ display: "flex" }}
+              >
+                <KeyboardDoubleArrowRightIcon />
+                &nbsp;{content}
               </Typography>
             ))}
           </Container>
@@ -64,8 +68,9 @@ function CareHomeVisa() {
           Benefits of CareHome Visa
         </Typography>
         {HomeCareVisaPage_Cotent.benefits.map((benefit, index) => (
-          <Typography key={index} sx={{ fontSize: "20px" }}>
-            &#11162; {benefit}
+          <Typography key={index} textAlign="justify" sx={{ display: "flex" }}>
+            <KeyboardDoubleArrowRightIcon />
+            &nbsp;{benefit}
           </Typography>
         ))}
       </Box>

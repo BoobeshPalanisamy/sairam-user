@@ -77,10 +77,11 @@ function StudyVisa() {
             </Typography>
             {studyVisaPage_content.intakes.map((intake, index) => (
               <Typography
-                sx={{ textAlign: "justify", fontSize: "15px" }}
+                sx={{ textAlign: "justify", display: "flex" }}
                 key={index}
               >
-                &#11166;&nbsp;{intake}
+                <KeyboardDoubleArrowRightIcon />
+                {intake}
               </Typography>
             ))}
           </Container>
