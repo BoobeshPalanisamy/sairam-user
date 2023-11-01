@@ -6,4 +6,5 @@ export enum paths {
   ABOUTUS = "/aboutus",
   OURSERVICES = "/ourservices",
   STUDYVISA = "/studyvisa",
+  CAREHOMEVISA = "/carehomevisa",
 }

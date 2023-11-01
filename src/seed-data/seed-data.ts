@@ -159,46 +159,64 @@ export const homePageTrainingAndService = [
     image: "assets/home/serviceandtraining/IELTS-sairam.png",
     name: "IELTS_sairam",
     content: "IELTS training",
+    description:
+      "Our IELTS training program equips you with the language skills and test strategies needed to excel in the IELTS exam, a crucial step for international students planning to study or work abroad.",
   },
   {
     image: "assets/home/serviceandtraining/oet_sairam.png",
     name: "OET_sairam",
     content: "OET training",
+    description:
+      "Our OET training is designed to help healthcare professionals improve their English language proficiency, ensuring they can meet the language requirements for their careers in the medical field.",
   },
   {
     image: "assets/home/serviceandtraining/profilewriting_sairam.png",
     name: "Profile_Writing_sairam",
     content: "Profile writing",
+    description:
+      "Our profile writing services assist you in crafting impressive and professional profiles for job applications or college admissions, making a strong first impression.",
   },
   {
     image: "assets/home/serviceandtraining/CV_writing_sairam.png",
     name: "CV_Writing_sairam",
     content: "CV Writing services",
+    description:
+      "Our CV writing services are tailored to showcase your skills and experiences, helping you create a compelling and standout CV for job applications and career advancement.",
   },
   {
     image: "assets/home/serviceandtraining/interview_training_sairam.png",
     name: "Interview_Training_sairam",
     content: "Interview Training",
+    description:
+      "Our interview training program hones your interview skills, providing you with the confidence and techniques necessary to excel in job interviews and admissions interviews.",
   },
   {
     image: "assets/ourservices/academicGuidance/projects_sairam.png",
     name: "project_works_sairam",
     content: "Project Works",
+    description:
+      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence.",
   },
   {
     image: "assets/ourservices/academicGuidance/assignment_sairam.png",
     name: "assignment_writing_sairam",
     content: "Assignment Writing",
+    description:
+      "Our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
   },
   {
     image: "assets/ourservices/academicGuidance/finance_sairam.png",
     name: "financial_analysis_sairam",
     content: "Financial Analysis",
+    description:
+      "Get expert support for financial analysis, enabling you to make informed decisions and excel in finance-related projects or careers.",
   },
   {
     image: "assets/ourservices/academicGuidance/research_sairam.png",
     name: "research_paper_writing_sairam",
     content: "Research Paper Writing",
+    description:
+      "Our research paper writing services assist you in producing well-researched, academically sound research papers for various disciplines and purposes.",
   },
 ];
 
@@ -331,5 +349,21 @@ export const studyVisaPage_WorkAuthorization = {
       content:
         "Notably, if your highly skilled dependent spouse secures sponsorship from a Tier 2 licensed employer independently, they cannot switch to a Tier 2 General Visa while in the UK.",
     },
+  ],
+};
+
+// HomeCareVisa Page
+export const HomeCareVisaPage_Cotent = {
+  content: [
+    "As of February 15, 2022, the UK government has officially announced that care workers and home carers have been included in the Skilled Worker shortage occupation list. This means that they are now eligible to seek a work visa for employment in the United Kingdom.",
+    "The UK Health and Care Worker visa, also known as the 'Care Assistant visa,' is designed for international healthcare professionals looking for employment opportunities in the United Kingdom. These international workers have the opportunity to apply to reside in the UK and pursue eligible positions within the National Health Service (NHS) UK, NHS-affiliated suppliers, or the adult social care sector.",
+    "The need for Home Carers in the United Kingdom is on the rise due to the aging population. According to a report from a reputable organization, the demographic of individuals aged 65 and above is projected to grow by nearly 50% in the next two decades. This demographic shift is expected to lead to a corresponding surge in demand for Home Carers services.",
+  ],
+  benefits: [
+    "You have the option to bring family members, including children under the age of 18.",
+    "Family members are allowed to work full-time in the country.",
+    "Children are entitled to free education up to the age of 18, including A-level qualifications.",
+    "Access to free healthcare services for your entire family.",
+    "Eligibility for Indefinite Leave to Remain (ILR) in the UK after holding a valid work permit for 5 years.",
   ],
 };

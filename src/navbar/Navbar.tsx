@@ -74,11 +74,12 @@ function Navbar() {
               mr: 2,
               display: { xs: "none", md: "flex" },
               fontWeight: 700,
-              color: "black",
+              color: theme.palette.primary.main,
               textDecoration: "none",
+              fontSize: "25px",
             }}
           >
-            SriSaiRam Consultancy
+            Sri SaiRam Academic and Career Consultancy
           </Typography>
           <Box
             sx={{

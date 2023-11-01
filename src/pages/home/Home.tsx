@@ -2,7 +2,7 @@ import { Box, Container, Typography, useMediaQuery } from "@mui/material";
 import FeedBack from "../../components/FeedBack";
 import FlagSlider from "../../components/FlagSlider";
 import theme from "../../theme/theme";
-import TrainingAndServiceHomePage from "../../components/TrainingAndServiceHomePage";
+import HomePageTrainingandServices from "../../components/HomePageTrainingandServices";
 
 function Home() {
   const matches = useMediaQuery("(max-width:600px)");
@@ -28,13 +28,18 @@ function Home() {
             }}
           >
             <h1
-              style={{ fontSize: "40px", fontWeight: "bolder", color: "#fff" }}
+              style={{
+                fontSize: matches ? "35px" : "50px",
+                fontWeight: "bolder",
+                color: "#fff",
+                padding: "0 10px",
+              }}
             >
-              SaiRam Consultancy and Academy
+              Sri SaiRam Academic and Career Consultancy
             </h1>
             <Typography
               sx={{
-                fontSize: matches ? "25px" : "30px",
+                fontSize: matches ? "30px" : "40px",
                 fontWeight: "700",
                 color: "orange",
               }}
@@ -49,7 +54,7 @@ function Home() {
           <h1 style={{ textAlign: "center", padding: "20px 0" }}>
             Welcome To &nbsp;
             <span style={{ color: theme.palette.primary.main }}>
-              Sri SaiRam Academy & Consultancy
+              Sri SaiRam Academic and Career Consultancy
             </span>
           </h1>
           <Typography
@@ -69,21 +74,29 @@ function Home() {
           </Typography>
         </Box>
       </Container>
-
-      <Box>
-        <h2
-          style={{
-            textAlign: "center",
-            padding: "20px 0",
-            fontSize: "35px",
-          }}
-        >
-          Our &nbsp;
-          <span style={{ color: theme.palette.primary.main }}>Training</span>
-          &nbsp;&&nbsp;
-          <span style={{ color: theme.palette.primary.main }}>Services</span>
-        </h2>
-        <TrainingAndServiceHomePage />
+      <h2
+        style={{
+          textAlign: "center",
+          fontSize: "35px",
+          margin: "0",
+          paddingTop: "10px",
+          backgroundColor: "#d0f0f7",
+        }}
+      >
+        Our &nbsp;
+        <span style={{ color: theme.palette.primary.main }}>Services</span>
+        &nbsp;&&nbsp;
+        <span style={{ color: theme.palette.primary.main }}>Training</span>
+      </h2>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          backgroundColor: "#d0f0f7",
+        }}
+        p={3}
+      >
+        <HomePageTrainingandServices />
       </Box>
       <Box>
         <Typography
