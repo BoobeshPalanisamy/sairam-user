@@ -52,19 +52,12 @@ export const feedbackSlider = [
 
 export const ourServices_studentVisa = {
   content:
-    "ensure to become aware and follow the latest visa documentation process, rules and guidance. It leads to getting a 99% success rate. We give our full support in making out the complete visa process. Some countries have paper-based application methods whereas some may have online, we help in all ways.",
-  subHeading: "What We Do in Visa Process",
-  subContent: [
-    { point: "Filling out the visa forms" },
-    { point: "Training for visa interviews" },
-    { point: "Conducting mock interviews" },
-    { point: "We assist you to keep track of this process." },
-  ],
+    "Embarking on an international educational journey? Sri Sariram Consultancy is your trusted partner for student visas. Our expert team simplifies the complex visa process, ensuring a seamless transition to your dream study destination. From application guidance to interview preparation, we're here to make your academic aspirations a reality. Explore our student visa services today!",
 };
 
 export const ourServices_careHomeVisa = {
   content:
-    "The Health and Care Visa is for healthcare professionals and workers from around the world to come to work in the UK health and social care sector.For applicants, the benefits of the Health and Care Worker visa include fast-tracked entry to the UK, together with reduced visa fees and exemption from the Immigration Health Surcharge. It also includes the support of a dedicated team within UKVI in processing visa applications for migrants and their dependent families.",
+    "Explore your possibilities with Sri Sariram Consultancy! Discover the Care Home Visa, your gateway to a rewarding career in the healthcare industry abroad. Our expert team will guide you through the application process, ensuring you achieve your dream of working in a foreign care home.",
 };
 
 export const ourServices_communicationTraining = [
@@ -256,3 +249,87 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
 ];
+
+// StudyVisa Page
+export const studyVisaPage_content = {
+  aboutStudyVisa:
+    "A student visa is your golden ticket to embark on an exciting educational journey in a foreign land. It's a legal document that permits you to study and often work while pursuing your dreams of higher education abroad. From meeting eligibility requirements to acing the visa interview, it's your passport to a world of knowledge and opportunities. Explore the diverse range of student visas and let your global education adventure begin.",
+  whySaiRam:
+    "At Sairam Consultancy, we provide comprehensive support in every aspect of the student visa process. From interview preparation to exam guidance and navigating the intricacies of the visa application, we ensure that you are fully equipped for a successful and stress-free journey to your desired international educational destination.",
+  whyStudentVisa: [
+    {
+      title: "Global Career Prospects",
+      content:
+        "Enhance your international employability and open doors to immigration possibilities by studying abroad, offering a wealth of prospects for your future.",
+    },
+    {
+      title: "Exciting and Safe Campus Culture",
+      content:
+        "Immerse yourself in a diverse and vibrant campus lifestyle, where you'll meet people from all walks of life, experience cultural exchange, and build lifelong connections.",
+    },
+    {
+      title: "Work and Learn Simultaneously",
+      content:
+        "International students often have the opportunity to work while they study, gaining practical experience and contributing to their financial independence.",
+    },
+    {
+      title: "Post-Study Immigration Prospects",
+      content:
+        "Explore the possibility of immigrating to your study destination after completing your course, which can lead to long-term career opportunities and personal growth.",
+    },
+    {
+      title: "Internship Opportunities",
+      content:
+        "Access excellent internship opportunities that bridge the gap between theory and practice, setting the stage for a successful career in your chosen field.",
+    },
+  ],
+  universities: [
+    "University of Leicester",
+    "King's College London",
+    "University of Strathclyde",
+    "Queen Mary University",
+    "University of Leeds",
+    "University of Toronto",
+    "McGill University",
+    "University of Waterloo",
+    "Dalhousie University",
+    "York University",
+    "Simon Fraser University",
+  ],
+  intakes: [
+    "The primary intake begins in September/October and is the most popular intake.",
+    "Commencing in January/February, this intake provides flexibility for students.",
+    "Available for select courses, this intake starts in May/June, catering to specialized programs.",
+  ],
+};
+
+export const studyVisaPage_WorkAuthorization = {
+  student_Applicants: [
+    {
+      title: "Eligibility",
+      content: "To be eligible, students must be 18 years or older.",
+    },
+    {
+      title: "Part-Time Work",
+      content:
+        "International students enrolled in full-time undergraduate or postgraduate degree programs at recognized universities on a Student Visa can work part-time (up to 20 hours per week) during term and full-time during academic breaks.",
+    },
+    {
+      title: "Academic Year",
+      content:
+        "Higher education institutions follow defined academic year semesters with dedicated holiday periods when students can engage in full-time employment if desired.",
+    },
+  ],
+  spouse_Work_Authorization: [
+    {
+      title: "Rights",
+      content:
+        "Dependent Visa holders in the UK have the freedom to work, with the exception of working as a trainee doctor.",
+    },
+    {
+      title: "Note",
+      content:
+        "Notably, if your highly skilled dependent spouse secures sponsorship from a Tier 2 licensed employer independently, they cannot switch to a Tier 2 General Visa while in the UK.",
+    },
+  ],
+};
