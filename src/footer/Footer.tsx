@@ -29,14 +29,16 @@ function Footer() {
             sx={{ display: "flex", justifyContent: "center" }}
           >
             <Grid item md={4} sx={{ display: matches ? "none" : "block" }}>
-              <h1>Sri Sairam Academy & Career Services</h1>
-              <h3 style={{ fontWeight: "100", paddingTop: "10px" }}>
+              <h1 style={{ margin: 0 }}>
+                Sri Sairam Academy & Career Services
+              </h1>
+              <h3 style={{ fontWeight: "100", paddingTop: "10px", margin: 0 }}>
                 One Stop Solution for Career Guidancy, Visa Processing, IELTS
                 Coaching, Interview Training @ Namkkal
               </h3>
             </Grid>
             <Grid item md={4}>
-              <h1>Our Services</h1>
+              <h1 style={{ margin: 0 }}>Our Services</h1>
               <List sx={{ fontSize: "20px" }} dense>
                 {services.map((service, index) => (
                   <ListItem key={index}>{service.service}</ListItem>

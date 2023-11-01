@@ -80,7 +80,7 @@ function StudyVisa() {
                 sx={{ textAlign: "justify", fontSize: "15px" }}
                 key={index}
               >
-                &#11166;&nbsp; {intake}
+                &#11166;&nbsp;{intake}
               </Typography>
             ))}
           </Container>
