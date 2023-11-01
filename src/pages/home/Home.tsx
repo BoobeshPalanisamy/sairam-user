@@ -69,37 +69,44 @@ function Home() {
           </Typography>
         </Box>
       </Container>
-      <h2
-        style={{
-          textAlign: "center",
-          padding: "20px 0",
-          fontSize: "35px",
-        }}
-      >
-        Choose Your &nbsp;
-        <span style={{ color: theme.palette.primary.main }}>Destination</span>
-      </h2>
-      <FlagSlider />
-      <h2
-        style={{
-          textAlign: "center",
-          padding: "20px 0",
-          fontSize: "35px",
-        }}
-      >
-        Our &nbsp;
-        <span style={{ color: theme.palette.primary.main }}>Training</span>
-        &nbsp;&&nbsp;
-        <span style={{ color: theme.palette.primary.main }}>Services</span>
-      </h2>
-      <TrainingAndServiceHomePage />
-      <Typography
-        variant="h4"
-        sx={{ textAlign: "center", margin: "30px 0", fontWeight: "bolder" }}
-      >
-        Hear from Our Customers
-      </Typography>
-      <FeedBack />
+
+      <Box>
+        <h2
+          style={{
+            textAlign: "center",
+            padding: "20px 0",
+            fontSize: "35px",
+          }}
+        >
+          Our &nbsp;
+          <span style={{ color: theme.palette.primary.main }}>Training</span>
+          &nbsp;&&nbsp;
+          <span style={{ color: theme.palette.primary.main }}>Services</span>
+        </h2>
+        <TrainingAndServiceHomePage />
+      </Box>
+      <Box>
+        <Typography
+          variant="h4"
+          sx={{ textAlign: "center", margin: "30px 0", fontWeight: "bolder" }}
+        >
+          Hear from Our Customers
+        </Typography>
+        <FeedBack />
+      </Box>
+      <Box>
+        <h2
+          style={{
+            textAlign: "center",
+            padding: "20px 0",
+            fontSize: "35px",
+          }}
+        >
+          Choose Your &nbsp;
+          <span style={{ color: theme.palette.primary.main }}>Destination</span>
+        </h2>
+        <FlagSlider />
+      </Box>
     </>
   );
 }

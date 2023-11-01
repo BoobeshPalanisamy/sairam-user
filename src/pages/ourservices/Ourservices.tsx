@@ -1,13 +1,11 @@
 import {
   Box,
+  Button,
   Card,
   CardActionArea,
   CardContent,
   Container,
   Grid,
-  List,
-  ListItemIcon,
-  ListItemText,
   Paper,
   Typography,
   useMediaQuery,
@@ -20,10 +18,11 @@ import {
   ourServices_jobGuidance,
   ourServices_studentVisa,
 } from "../../seed-data/seed-data";
-import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import theme from "../../theme/theme";
 import Fade from "react-reveal/Fade";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { paths } from "../../routes/paths";
 
 function Ourservices() {
   const matches = useMediaQuery("(min-width:1100px)");
@@ -33,61 +32,68 @@ function Ourservices() {
   return (
     <>
       <PageBanner
-        imageUrl="assets\ourservices\ourservices_sairam_banner.jpeg"
+        imageUrl="assets\ourservices\ourservices_sairam_banner.jpg"
         content="OurServices"
       />
       <Container>
         {/* Student Visa */}
         <Fade left>
-          <Grid container spacing={3} flexDirection="row-reverse" mt={2}>
-            <Grid
-              item
-              xs={12}
-              md={4}
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <img
-                src="assets\ourservices\student_visa_sairam.jpg"
-                alt="student_visa_sairam"
-                height="300px"
-                width="300px"
-                style={{ borderRadius: "50%" }}
-              />
-            </Grid>
-            <Grid item xs={12} md={8}>
-              <Box>
-                <Typography
-                  variant="h3"
-                  sx={{ fontWeight: "700", margin: "10px 0" }}
-                >
-                  Student <span style={{ color: "orange" }}>Visa</span>
-                </Typography>
-                <Typography sx={{ textAlign: "justify" }}>
-                  {ourServices_studentVisa.content}
-                </Typography>
-                <Typography variant="h5" sx={{ fontWeight: "700" }}>
-                  {ourServices_studentVisa.subHeading}
-                </Typography>
-                <List>
-                  {ourServices_studentVisa.subContent.map((points, index) => (
-                    <Box
-                      key={index}
-                      sx={{ display: "flex", alignItems: "center" }}
+          <Link
+            to={paths.STUDYVISA}
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <Grid container spacing={3} flexDirection="row-reverse" mt={2}>
+              <Grid
+                item
+                xs={12}
+                md={4}
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img
+                  src="assets\ourservices\student_visa_sairam.jpg"
+                  alt="student_visa_sairam"
+                  height="300px"
+                  width="300px"
+                  style={{ borderRadius: "50%" }}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                md={8}
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  cursor: "pointer",
+                }}
+              >
+                <Box>
+                  <Typography
+                    variant="h3"
+                    sx={{ fontWeight: "700", margin: "10px 0" }}
+                  >
+                    Student <span style={{ color: "orange" }}>Visa</span>
+                  </Typography>
+                  <Typography sx={{ textAlign: "justify" }}>
+                    {ourServices_studentVisa.content}
+                  </Typography>
+                  <Box mt={2}>
+                    <Button
+                      size="small"
+                      variant="contained"
+                      sx={{ background: theme.palette.secondary.main }}
                     >
-                      <ListItemIcon sx={{ minWidth: 0 }}>
-                        <DoubleArrowIcon />
-                      </ListItemIcon>
-                      <ListItemText>{points.point}</ListItemText>
-                    </Box>
-                  ))}
-                </List>
-              </Box>
+                      Read More &#129170;&#129170;
+                    </Button>
+                  </Box>
+                </Box>
+              </Grid>
             </Grid>
-          </Grid>
+          </Link>
         </Fade>
         {/* CareHome Visa */}
         <Fade right>
@@ -110,7 +116,17 @@ function Ourservices() {
                 style={{ borderRadius: "50%" }}
               />
             </Grid>
-            <Grid item xs={12} md={8}>
+            <Grid
+              item
+              xs={12}
+              md={8}
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                cursor: "pointer",
+              }}
+            >
               <Typography
                 variant="h3"
                 sx={{ fontWeight: "700", margin: "10px 0" }}
@@ -120,6 +136,15 @@ function Ourservices() {
               <Typography sx={{ textAlign: "justify" }}>
                 {ourServices_careHomeVisa.content}
               </Typography>
+              <Box mt={2}>
+                <Button
+                  size="small"
+                  variant="contained"
+                  sx={{ background: theme.palette.secondary.main }}
+                >
+                  Read More &#129170;&#129170;
+                </Button>
+              </Box>
             </Grid>
           </Grid>
         </Fade>
