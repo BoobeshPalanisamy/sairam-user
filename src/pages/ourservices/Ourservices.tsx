@@ -96,58 +96,63 @@ function Ourservices() {
           </Link>
         </Fade>
         {/* CareHome Visa */}
-        <Fade right>
-          <Grid container spacing={3} mt={2}>
-            <Grid
-              item
-              xs={12}
-              md={4}
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <img
-                src="assets\ourservices\carehome_visa_sairam.jpeg"
-                alt="student_visa_sairam"
-                height="300px"
-                width="300px"
-                style={{ borderRadius: "50%" }}
-              />
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              md={8}
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                cursor: "pointer",
-              }}
-            >
-              <Typography
-                variant="h3"
-                sx={{ fontWeight: "700", margin: "10px 0" }}
+        <Link
+          to={paths.CAREHOMEVISA}
+          style={{ textDecoration: "none", color: "black" }}
+        >
+          <Fade right>
+            <Grid container spacing={3} mt={2}>
+              <Grid
+                item
+                xs={12}
+                md={4}
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
-                CareHome <span style={{ color: "orange" }}>Visa</span>
-              </Typography>
-              <Typography sx={{ textAlign: "justify" }}>
-                {ourServices_careHomeVisa.content}
-              </Typography>
-              <Box mt={2}>
-                <Button
-                  size="small"
-                  variant="contained"
-                  sx={{ background: theme.palette.secondary.main }}
+                <img
+                  src="assets\ourservices\carehome_visa_sairam.jpeg"
+                  alt="student_visa_sairam"
+                  height="300px"
+                  width="300px"
+                  style={{ borderRadius: "50%" }}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                md={8}
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  cursor: "pointer",
+                }}
+              >
+                <Typography
+                  variant="h3"
+                  sx={{ fontWeight: "700", margin: "10px 0" }}
                 >
-                  Read More &#129170;&#129170;
-                </Button>
-              </Box>
+                  CareHome <span style={{ color: "orange" }}>Visa</span>
+                </Typography>
+                <Typography sx={{ textAlign: "justify" }}>
+                  {ourServices_careHomeVisa.content}
+                </Typography>
+                <Box mt={2}>
+                  <Button
+                    size="small"
+                    variant="contained"
+                    sx={{ background: theme.palette.secondary.main }}
+                  >
+                    Read More &#129170;&#129170;
+                  </Button>
+                </Box>
+              </Grid>
             </Grid>
-          </Grid>
-        </Fade>
+          </Fade>
+        </Link>
       </Container>
 
       {/* Communication Training */}
