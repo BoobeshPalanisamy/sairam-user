@@ -11,11 +11,11 @@ interface IProps {
   color: string;
 }
 
-function ContactAddress(props: IProps) {  
+function ContactAddress(props: IProps) {
   const { color } = props;
   return (
     <>
-      <h1>Contact Us </h1>
+      <h1 style={{ margin: 0 }}>Contact Us </h1>
       <Box sx={{ display: "flex", paddingTop: "10px" }}>
         <LocalPhoneIcon
           sx={{
@@ -25,7 +25,7 @@ function ContactAddress(props: IProps) {
         <Box sx={{ paddingLeft: "10px" }}>
           {["81225 80079", "99943 37623", "74181 37623"].map(
             (phoneNumber, index) => (
-              <h3 key={index} style={{ fontWeight: "100" }}>
+              <h3 key={index} style={{ fontWeight: "100", margin: 0 }}>
                 {phoneNumber}
               </h3>
             )
@@ -38,7 +38,7 @@ function ContactAddress(props: IProps) {
             color: { color },
           }}
         />
-        <h3 style={{ fontWeight: "100", paddingLeft: "10px" }}>
+        <h3 style={{ fontWeight: "100", paddingLeft: "10px", margin: 0 }}>
           ssacs2023@gmail.com
         </h3>
       </Box>
@@ -56,7 +56,7 @@ function ContactAddress(props: IProps) {
             "P.Velur",
             "Namakkal Dt - 638 182",
           ].map((address, index) => (
-            <h3 key={index} style={{ fontWeight: "100" }}>
+            <h3 key={index} style={{ fontWeight: "100", margin: 0 }}>
               {address}
             </h3>
           ))}
