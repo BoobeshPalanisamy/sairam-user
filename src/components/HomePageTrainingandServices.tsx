@@ -5,9 +5,15 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Box, Button, Grid, useMediaQuery } from "@mui/material";
 import { homePageTrainingAndService } from "../seed-data/seed-data";
+import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
+import { useNavigate } from "react-router";
 
 function HomePageTrainingandServices() {
   const matches = useMediaQuery("(max-width:600px)");
+  const navigate = useNavigate();
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
   return (
     <Grid
       container
@@ -47,13 +53,13 @@ function HomePageTrainingandServices() {
                 <Typography ml={2}>{service.content}</Typography>
               </Box>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails onClick={() => handleNavigate(service.path)}>
               <Typography>{service.description}</Typography>
               <Box
                 sx={{ width: "100%", display: "flex", justifyContent: "end" }}
               >
                 <Button variant="contained" size="small">
-                  Know More &#11166;
+                  Know More <DoubleArrowIcon style={{ fontSize: "x-small" }} />
                 </Button>
               </Box>
             </AccordionDetails>

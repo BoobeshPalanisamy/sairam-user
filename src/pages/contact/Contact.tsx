@@ -10,12 +10,8 @@ import ContactAddress from "../../footer/ContactAddress";
 import PageBanner from "../../components/PageBanner";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-import { useEffect } from "react";
 
 function Contact() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <PageBanner

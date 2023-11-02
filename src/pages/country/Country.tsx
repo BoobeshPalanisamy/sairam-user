@@ -9,15 +9,11 @@ import {
   Typography,
 } from "@mui/material";
 import PageBanner from "../../components/PageBanner";
-import React, { useEffect } from "react";
+import React from "react";
 import Fade from "react-reveal/Fade";
 import { countryDetails } from "../../seed-data/seed-data";
 
 function Country() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <>
       <PageBanner

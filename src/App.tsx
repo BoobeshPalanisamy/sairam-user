@@ -12,6 +12,7 @@ import Ourservices from "./pages/ourservices/Ourservices";
 import SocialMediaNavigator from "./components/SocialMediaNavigator";
 import StudyVisa from "./pages/ourservices/StudyVisa";
 import CareHomeVisa from "./pages/ourservices/CareHomeVisa";
+import CommunicationTraining from "./pages/ourservices/CommunicationTraining";
 
 function App() {
   return (
@@ -28,7 +29,18 @@ function App() {
               <Route path={paths.ABOUTUS} element={<AboutUs />}></Route>
               <Route path={paths.OURSERVICES} element={<Ourservices />}></Route>
               <Route path={paths.STUDYVISA} element={<StudyVisa />}></Route>
-              <Route path={paths.CAREHOMEVISA} element={<CareHomeVisa />}></Route>
+              <Route
+                path={paths.CAREHOMEVISA}
+                element={<CareHomeVisa />}
+              ></Route>
+              <Route
+                path={paths.CAREHOMEVISA}
+                element={<CareHomeVisa />}
+              ></Route>
+              <Route
+                path={paths.COMMUNICATIONTRAINING}
+                element={<CommunicationTraining />}
+              ></Route>
             </Route>
           </Routes>
         </ThemeProvider>

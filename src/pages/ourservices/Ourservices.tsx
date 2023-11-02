@@ -6,7 +6,6 @@ import {
   CardContent,
   Container,
   Grid,
-  Paper,
   Typography,
   useMediaQuery,
 } from "@mui/material";
@@ -14,21 +13,18 @@ import PageBanner from "../../components/PageBanner";
 import {
   ourServices_academicGuidance,
   ourServices_careHomeVisa,
-  ourServices_communicationTraining,
   ourServices_jobGuidance,
   ourServices_studentVisa,
 } from "../../seed-data/seed-data";
 import theme from "../../theme/theme";
 import Fade from "react-reveal/Fade";
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { paths } from "../../routes/paths";
+import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
+import CommunicationTraining from "./CommunicationTraining";
 
 function Ourservices() {
   const matches = useMediaQuery("(min-width:1100px)");
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <PageBanner
@@ -87,7 +83,7 @@ function Ourservices() {
                       variant="contained"
                       sx={{ background: theme.palette.secondary.main }}
                     >
-                      Read More &#129170;&#129170;
+                      Read More <DoubleArrowIcon sx={{ fontSize: "x-small" }} />
                     </Button>
                   </Box>
                 </Box>
@@ -146,7 +142,7 @@ function Ourservices() {
                     variant="contained"
                     sx={{ background: theme.palette.secondary.main }}
                   >
-                    Read More &#129170;&#129170;
+                    Read More <DoubleArrowIcon sx={{ fontSize: "x-small" }} />
                   </Button>
                 </Box>
               </Grid>
@@ -156,60 +152,8 @@ function Ourservices() {
       </Container>
 
       {/* Communication Training */}
-      <Box
-        sx={{
-          fontWeight: "700",
-          backgroundColor: "#f5f5f5",
-        }}
-        mt={2}
-        pb={2}
-      >
-        <Container>
-          <Typography variant="h3">
-            Communication <span style={{ color: "orange" }}>Training</span>
-          </Typography>
-          <Grid
-            container
-            spacing={3}
-            mt={2}
-            sx={{ display: "flex", justifyContent: "center" }}
-          >
-            {ourServices_communicationTraining.map((service, index) => (
-              <Grid item md={4}>
-                <Typography
-                  variant="h6"
-                  sx={{
-                    fontWeight: "bolder",
-                    color: theme.palette.primary.main,
-                  }}
-                >
-                  {service.title}
-                </Typography>
-                <Paper
-                  elevation={0}
-                  key={index}
-                  sx={{
-                    height: matches ? "300px" : "auto",
-                    borderRadius: "20px",
-                    boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff;",
-                  }}
-                >
-                  <Container>
-                    <Typography
-                      sx={{
-                        textAlign: "justify",
-                        fontSize: "18px",
-                        padding: "10px 0",
-                      }}
-                    >
-                      {service.content}
-                    </Typography>
-                  </Container>
-                </Paper>
-              </Grid>
-            ))}
-          </Grid>
-        </Container>
+      <Box mt={2}>
+        <CommunicationTraining />
       </Box>
 
       {/* Academic Guidance */}
