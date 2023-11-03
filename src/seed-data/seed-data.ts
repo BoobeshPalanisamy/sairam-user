@@ -60,29 +60,6 @@ export const ourServices_careHomeVisa = {
     "Explore your possibilities with Sri Sariram Consultancy! Discover the Care Home Visa, your gateway to a rewarding career in the healthcare industry abroad. Our expert team will guide you through the application process, ensuring you achieve your dream of working in a foreign care home.",
 };
 
-export const ourServices_communicationTraining = [
-  {
-    title: "IELTS",
-    content:
-      "International English Language is a test to evaluate your English Language Skills. It is one of the primary tests for those who want to study or work in a country where English is the language of communication. ITES is well-regarded by most universities and employers. The official partners of IELTS are Cambridge and the British council, IDP",
-  },
-  {
-    title: "PTE",
-    content:
-      "Pearson Test of English is an online-based test to measure your English Proficiency for study abroad and immigration purposes. PTE is recognized by many countries. The PTE score is valuable for 2 years.",
-  },
-  {
-    title: "OET",
-    content:
-      "Test of English as a Foreign Language is a standardized test to measure the English language ability of non-native speakers wishing to enroll in English-speaking universities. The test is accepted by more than 11,000 universities and other institutions in over 190 countries and territories ",
-  },
-  {
-    title: "Interview Training",
-    content:
-      "To prepare for the interviews, you must consider how to stand out. Check your personal statement and the course information carefully before appearing for the interview. Plan some answers to common university interview questions. Know your subject and regularly practice with a friend.",
-  },
-];
-
 export const ourServices_academicGuidance = [
   {
     image: "assets/ourservices/academicGuidance/assignment_sairam.png",
@@ -154,72 +131,6 @@ export const countryFlag = [
   },
 ];
 
-export const homePageTrainingAndService = [
-  {
-    image: "assets/home/serviceandtraining/IELTS-sairam.png",
-    name: "IELTS_sairam",
-    content: "IELTS training",
-    description:
-      "Our IELTS training program equips you with the language skills and test strategies needed to excel in the IELTS exam, a crucial step for international students planning to study or work abroad.",
-  },
-  {
-    image: "assets/home/serviceandtraining/oet_sairam.png",
-    name: "OET_sairam",
-    content: "OET training",
-    description:
-      "Our OET training is designed to help healthcare professionals improve their English language proficiency, ensuring they can meet the language requirements for their careers in the medical field.",
-  },
-  {
-    image: "assets/home/serviceandtraining/profilewriting_sairam.png",
-    name: "Profile_Writing_sairam",
-    content: "Profile writing",
-    description:
-      "Our profile writing services assist you in crafting impressive and professional profiles for job applications or college admissions, making a strong first impression.",
-  },
-  {
-    image: "assets/home/serviceandtraining/CV_writing_sairam.png",
-    name: "CV_Writing_sairam",
-    content: "CV Writing services",
-    description:
-      "Our CV writing services are tailored to showcase your skills and experiences, helping you create a compelling and standout CV for job applications and career advancement.",
-  },
-  {
-    image: "assets/home/serviceandtraining/interview_training_sairam.png",
-    name: "Interview_Training_sairam",
-    content: "Interview Training",
-    description:
-      "Our interview training program hones your interview skills, providing you with the confidence and techniques necessary to excel in job interviews and admissions interviews.",
-  },
-  {
-    image: "assets/ourservices/academicGuidance/projects_sairam.png",
-    name: "project_works_sairam",
-    content: "Project Works",
-    description:
-      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence.",
-  },
-  {
-    image: "assets/ourservices/academicGuidance/assignment_sairam.png",
-    name: "assignment_writing_sairam",
-    content: "Assignment Writing",
-    description:
-      "Our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
-  },
-  {
-    image: "assets/ourservices/academicGuidance/finance_sairam.png",
-    name: "financial_analysis_sairam",
-    content: "Financial Analysis",
-    description:
-      "Get expert support for financial analysis, enabling you to make informed decisions and excel in finance-related projects or careers.",
-  },
-  {
-    image: "assets/ourservices/academicGuidance/research_sairam.png",
-    name: "research_paper_writing_sairam",
-    content: "Research Paper Writing",
-    description:
-      "Our research paper writing services assist you in producing well-researched, academically sound research papers for various disciplines and purposes.",
-  },
-];
-
 export const countryDetails = [
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
@@ -268,6 +179,109 @@ export const countryDetails = [
   },
 ];
 
+// HomePage
+export const homePageTrainingAndService = [
+  {
+    image: "assets/home/serviceandtraining/IELTS-sairam.png",
+    name: "Communicational_training_sairam",
+    content: "Communicational Training",
+    description:
+      "Unlock your global potential with our comprehensive communication training programs, including TOEFL, IELTS, and more, designed to enhance your language proficiency and communication skills for success in an international setting.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/home/serviceandtraining/profilewriting_sairam.png",
+    name: "Profile_Writing_sairam",
+    content: "Profile writing",
+    description:
+      "Our profile writing services assist you in crafting impressive and professional profiles for job applications or college admissions, making a strong first impression.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/home/serviceandtraining/CV_writing_sairam.png",
+    name: "CV_Writing_sairam",
+    content: "CV Writing services",
+    description:
+      "Our CV writing services are tailored to showcase your skills and experiences, helping you create a compelling and standout CV for job applications and career advancement.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/home/serviceandtraining/interview_training_sairam.png",
+    name: "Interview_Training_sairam",
+    content: "Interview Training",
+    description:
+      "Our interview training program hones your interview skills, providing you with the confidence and techniques necessary to excel in job interviews and admissions interviews.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/projects_sairam.png",
+    name: "project_works_sairam",
+    content: "Project Works",
+    description:
+      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/assignment_sairam.png",
+    name: "assignment_writing_sairam",
+    content: "Assignment Writing",
+    description:
+      "Our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/finance_sairam.png",
+    name: "financial_analysis_sairam",
+    content: "Financial Analysis",
+    description:
+      "Get expert support for financial analysis, enabling you to make informed decisions and excel in finance-related projects or careers.",
+    path: "/communicationtraining",
+  },
+  {
+    image: "assets/ourservices/academicGuidance/research_sairam.png",
+    name: "research_paper_writing_sairam",
+    content: "Research Paper Writing",
+    description:
+      "Our research paper writing services assist you in producing well-researched, academically sound research papers for various disciplines and purposes.",
+    path: "/communicationtraining",
+  },
+];
+
+// CommunicationTraining Page
+export const ourServices_communicationTraining = [
+  {
+    title: "IELTS",
+    content:
+      "IELTS, the International English Language Testing System, is a globally recognized test that assesses your English language proficiency for study, work, or migration purposes.",
+    path: "/ielts",
+  },
+  {
+    title: "PTE",
+    content:
+      "Unlock your pathway to global opportunities with the PTE (Pearson Test of English) - a trusted English language proficiency test recognized by universities and institutions worldwide.",
+  },
+  {
+    title: "OET",
+    content:
+      "OET, is an internationally recognized language proficiency examination designed for healthcare professionals, assessing their English language skills in a healthcare context.",
+  },
+  {
+    title: "TOELF",
+    content:
+      "TOEFL, the Test of English as a Foreign Language, is a globally recognized exam that assesses your English language proficiency, essential for academic and professional success.",
+  },
+  {
+    title: "Duolingo",
+    content:
+      "Duolingo: Your passport to a world of language learning, offering fun and effective lessons for mastering new languages.",
+  },
+  {
+    title: "Interview Training",
+    content:
+      "Prepare for success with our expert abroad university interview training. We'll equip you with the skills and confidence to excel in your university admissions interview.",
+  },
+];
+
 // StudyVisa Page
 export const studyVisaPage_content = {
   aboutStudyVisa:
@@ -308,9 +322,9 @@ export const studyVisaPage_content = {
     "Queen Mary University",
     "University of Leeds",
     "University of Toronto",
-    "McGill University",
     "University of Waterloo",
     "Dalhousie University",
+    "McGill University",
     "York University",
     "Simon Fraser University",
   ],
@@ -366,4 +380,10 @@ export const HomeCareVisaPage_Cotent = {
     "Access to free healthcare services for your entire family.",
     "Eligibility for Indefinite Leave to Remain (ILR) in the UK after holding a valid work permit for 5 years.",
   ],
+};
+
+// IELTS Page
+export const IELTS_page = {
+  content:
+    "Recognized globally, the International English Language Testing System (IELTS) is the go-to assessment for measuring English proficiency. A strong IELTS score sets you apart in academic and immigration applications. Sri SaiRam IELTS Coaching offers a rigorous training program tailored to maximize your IELTS score. Whether you're a student aspiring to study abroad or an immigrant applicant to countries like Canada and Australia, our program equips you with the language skills needed to excel in your endeavors. Join us to unlock new opportunities with the IELTS",
 };

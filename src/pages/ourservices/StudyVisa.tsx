@@ -13,13 +13,9 @@ import {
 } from "../../seed-data/seed-data";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 import theme from "../../theme/theme";
-import { useEffect } from "react";
 
 function StudyVisa() {
   const matches = useMediaQuery("(max-width:600px)");
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <Container>

@@ -1,21 +1,11 @@
-import {
-  Box,
-  Button,
-  Container,
-  Grid,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import ContactAddress from "../../footer/ContactAddress";
 import PageBanner from "../../components/PageBanner";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-import { useEffect } from "react";
+import ContactUsForm from "../../components/ContactUsForm";
 
 function Contact() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <PageBanner
@@ -50,82 +40,9 @@ function Contact() {
                 </Zoom>
               </Box>
             </Grid>
-            <Grid item md={6}>
+            <Grid item md={6} xs={12}>
               <Box>
-                <Fade right duration={500}>
-                  <Container>
-                    <form
-                      style={{
-                        backgroundColor: "#f0f4f5",
-                        padding: "20px",
-                        borderRadius: "20px",
-                        boxShadow: "2px 2px 2px 2px rgba(0, 0, 0, 0.1)",
-                      }}
-                    >
-                      <Grid container spacing={2}>
-                        <Grid item xs={12}>
-                          <Typography
-                            variant="h4"
-                            sx={{ color: "black", mb: 2 }}
-                          >
-                            Contact Us
-                          </Typography>
-                          <TextField
-                            label="Enter Name"
-                            fullWidth
-                            size="small"
-                            required
-                          />
-                        </Grid>
-                        <Grid item xs={12}>
-                          <TextField
-                            label="Enter Age"
-                            fullWidth
-                            size="small"
-                            required
-                          />
-                        </Grid>
-                        <Grid item xs={12}>
-                          <TextField
-                            label="Enter Phone no"
-                            required
-                            fullWidth
-                            size="small"
-                          />
-                        </Grid>
-                        <Grid item xs={12}>
-                          <TextField
-                            label="Enter Email"
-                            fullWidth
-                            required
-                            type="email"
-                            size="small"
-                          />
-                        </Grid>
-                        <Grid item xs={12}>
-                          <TextField
-                            label="Message"
-                            multiline
-                            rows={4}
-                            fullWidth
-                          />
-                        </Grid>
-                        <Grid item xs={12} textAlign={"center"}>
-                          <Button
-                            variant="contained"
-                            type="submit"
-                            sx={{
-                              mt: 1,
-                            }}
-                            fullWidth
-                          >
-                            Submit
-                          </Button>
-                        </Grid>
-                      </Grid>
-                    </form>
-                  </Container>
-                </Fade>
+                <ContactUsForm />
               </Box>
             </Grid>
           </Grid>
