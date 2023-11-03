@@ -10,9 +10,14 @@ import {
 import { ourServices_communicationTraining } from "../../seed-data/seed-data";
 import theme from "../../theme/theme";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import { useNavigate } from "react-router";
 
 function CommunicationTraining() {
   const matches = useMediaQuery("(min-width:1100px)");
+  const navigate = useNavigate();
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
   return (
     <Box
       sx={{
@@ -32,7 +37,7 @@ function CommunicationTraining() {
           sx={{ display: "flex", justifyContent: "center" }}
         >
           {ourServices_communicationTraining.map((service, index) => (
-            <Grid item md={4}>
+            <Grid item md={4} onClick={() => handleNavigate(service.path)}>
               <Typography
                 variant="h6"
                 sx={{

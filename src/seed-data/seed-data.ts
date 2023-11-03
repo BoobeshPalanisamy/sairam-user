@@ -131,13 +131,12 @@ export const countryFlag = [
   },
 ];
 
-
 export const countryDetails = [
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
     cardTitle: "UK",
     cardContent:
-    " The UK is renowned for its world-class universities, offering top-notch education, and its vibrant cities including London, which is a global financial hub.",
+      " The UK is renowned for its world-class universities, offering top-notch education, and its vibrant cities including London, which is a global financial hub.",
     title: "UK",
     content:
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -146,7 +145,7 @@ export const countryDetails = [
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
     cardTitle: "Canada",
     cardContent:
-    " Canada is renowned for its world-class universities, offering top-notch education, and its vibrant cities including Toronto, which is a global financial hub.",
+      " Canada is renowned for its world-class universities, offering top-notch education, and its vibrant cities including Toronto, which is a global financial hub.",
     title: "Canada",
     content:
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -155,28 +154,28 @@ export const countryDetails = [
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
     cardTitle: "USA",
     cardContent:
-    " The USA is renowned for its world-class universities, offering top-notch education, and its vibrant cities including New York, which is a global financial hub.",
+      " The USA is renowned for its world-class universities, offering top-notch education, and its vibrant cities including New York, which is a global financial hub.",
     title: "USA",
     content:
-    " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
     cardTitle: "New Zealand",
     cardContent:
-    " New Zealand is renowned for its world-class universities, offering top-notch education, and its natural beauty.",
+      " New Zealand is renowned for its world-class universities, offering top-notch education, and its natural beauty.",
     title: "New Zealand",
     content:
-    " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
     cardTitle: "Australia",
     cardContent:
-    " Australia is renowned for its world-class universities, offering top-notch education, and its diverse landscapes.",
+      " Australia is renowned for its world-class universities, offering top-notch education, and its diverse landscapes.",
     title: "Australia",
     content:
-    " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
 ];
 
@@ -248,12 +247,13 @@ export const homePageTrainingAndService = [
   },
 ];
 
-// OutService Page
+// CommunicationTraining Page
 export const ourServices_communicationTraining = [
   {
     title: "IELTS",
     content:
       "IELTS, the International English Language Testing System, is a globally recognized test that assesses your English language proficiency for study, work, or migration purposes.",
+    path: "/ielts",
   },
   {
     title: "PTE",
@@ -380,4 +380,10 @@ export const HomeCareVisaPage_Cotent = {
     "Access to free healthcare services for your entire family.",
     "Eligibility for Indefinite Leave to Remain (ILR) in the UK after holding a valid work permit for 5 years.",
   ],
+};
+
+// IELTS Page
+export const IELTS_page = {
+  content:
+    "Recognized globally, the International English Language Testing System (IELTS) is the go-to assessment for measuring English proficiency. A strong IELTS score sets you apart in academic and immigration applications. Sri SaiRam IELTS Coaching offers a rigorous training program tailored to maximize your IELTS score. Whether you're a student aspiring to study abroad or an immigrant applicant to countries like Canada and Australia, our program equips you with the language skills needed to excel in your endeavors. Join us to unlock new opportunities with the IELTS",
 };

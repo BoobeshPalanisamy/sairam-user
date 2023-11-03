@@ -13,6 +13,7 @@ import SocialMediaNavigator from "./components/SocialMediaNavigator";
 import StudyVisa from "./pages/ourservices/StudyVisa";
 import CareHomeVisa from "./pages/ourservices/CareHomeVisa";
 import CommunicationTraining from "./pages/ourservices/CommunicationTraining";
+import Ielts from "./pages/ourservices/Ielts";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
                 path={paths.COMMUNICATIONTRAINING}
                 element={<CommunicationTraining />}
               ></Route>
+              <Route path={paths.IELTS} element={<Ielts />}></Route>
             </Route>
           </Routes>
         </ThemeProvider>
