@@ -15,7 +15,7 @@ import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArro
 import theme from "../../theme/theme";
 
 function StudyVisa() {
-  const matches = useMediaQuery("(max-width:600px)");
+  const largeDevice = useMediaQuery("(min-width:1000px)");
 
   return (
     <Container>
@@ -44,7 +44,7 @@ function StudyVisa() {
             src="assets\ourservices\studyVisa\study_visa_sairam.jpg"
             alt="studyvisa_sairam"
             width="100%"
-            style={{ height: matches ? "50vh" : "75vh" }}
+            style={{ height: largeDevice ? "70vh" : "50vh" }}
           />
         </Grid>
         <Grid
