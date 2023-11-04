@@ -1,55 +1,4 @@
-export const feedbackSlider = [
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Chandru",
-    institute: "London University",
-    review:
-      "The whole process was really smooth and simple. She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream",
-  },
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Pradeep",
-    institute: "London University",
-    review:
-      " The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
-  },
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Rohit",
-    institute: "London University",
-    review:
-      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream",
-  },
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Manoj",
-    institute: "London University",
-    review:
-      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
-  },
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Kavin",
-    institute: "London University",
-    review:
-      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
-  },
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Karthick",
-    institute: "London University",
-    review:
-      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream",
-  },
-  {
-    image: "assets/home/feedback-slider/feedback_page.jpeg",
-    name: "Rajtharan",
-    institute: "London University",
-    review:
-      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
-  },
-];
-
+// OurService Page
 export const ourServices_studentVisa = {
   content:
     "Embarking on an international educational journey? Sri Sariram Consultancy is your trusted partner for student visas. Our expert team simplifies the complex visa process, ensuring a seamless transition to your dream study destination. From application guidance to interview preparation, we're here to make your academic aspirations a reality. Explore our student visa services today!",
@@ -116,21 +65,7 @@ export const ourServices_jobGuidance = [
   },
 ];
 
-export const countryFlag = [
-  { image: "assets/home/flag-slider/UK_flag_sairam.png", name: "UK" },
-
-  { image: "assets/home/flag-slider/canada_flag_sairam.png", name: "Canada" },
-  {
-    image: "assets/home/flag-slider/NewZealand_flag_sairam.png",
-    name: "NewZeaLand",
-  },
-  { image: "assets/home/flag-slider/USA_flag_sairam.png", name: "USA" },
-  {
-    image: "assets/home/flag-slider/australia_flag_sairam.png",
-    name: "Australia",
-  },
-];
-
+// Country Page
 export const countryDetails = [
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpeg",
@@ -247,6 +182,73 @@ export const homePageTrainingAndService = [
   },
 ];
 
+export const countryFlag = [
+  { image: "assets/home/flag-slider/UK_flag_sairam.png", name: "UK" },
+
+  { image: "assets/home/flag-slider/canada_flag_sairam.png", name: "Canada" },
+  {
+    image: "assets/home/flag-slider/NewZealand_flag_sairam.png",
+    name: "NewZeaLand",
+  },
+  { image: "assets/home/flag-slider/USA_flag_sairam.png", name: "USA" },
+  {
+    image: "assets/home/flag-slider/australia_flag_sairam.png",
+    name: "Australia",
+  },
+];
+
+export const feedbackSlider = [
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Chandru",
+    institute: "London University",
+    review:
+      "The whole process was really smooth and simple. She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream",
+  },
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Pradeep",
+    institute: "London University",
+    review:
+      " The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
+  },
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Rohit",
+    institute: "London University",
+    review:
+      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream",
+  },
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Manoj",
+    institute: "London University",
+    review:
+      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
+  },
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Kavin",
+    institute: "London University",
+    review:
+      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
+  },
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Karthick",
+    institute: "London University",
+    review:
+      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream",
+  },
+  {
+    image: "assets/home/feedback-slider/feedback_page.jpeg",
+    name: "Rajtharan",
+    institute: "London University",
+    review:
+      "The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes Thank you leap scholar for helping me to achieve my dream The whole process was really smooth and simple . She has helped to understand the process from beginning and short out colleges based on my interest. Leap scholar has best services including IELTS classes",
+  },
+];
+
 // CommunicationTraining Page
 export const ourServices_communicationTraining = [
   {
@@ -285,7 +287,7 @@ export const ourServices_communicationTraining = [
 // StudyVisa Page
 export const studyVisaPage_content = {
   aboutStudyVisa:
-    "A student visa is your golden ticket to embark on an exciting educational journey in a foreign land. It's a legal document that permits you to study and often work while pursuing your dreams of higher education abroad. From meeting eligibility requirements to acing the visa interview, it's your passport to a world of knowledge and opportunities. Explore the diverse range of student visas and let your global education adventure begin.",
+    "A student visa is your golden ticket to embark on an exciting educational journey in a foreign land. From meeting eligibility requirements to acing the visa interview, it's your passport to a world of knowledge and opportunities.",
   whySaiRam:
     "At Sairam Consultancy, we provide comprehensive support in every aspect of the student visa process. From interview preparation to exam guidance and navigating the intricacies of the visa application, we ensure that you are fully equipped for a successful and stress-free journey to your desired international educational destination.",
   whyStudentVisa: [
@@ -386,4 +388,64 @@ export const HomeCareVisaPage_Cotent = {
 export const IELTS_page = {
   content:
     "Recognized globally, the International English Language Testing System (IELTS) is the go-to assessment for measuring English proficiency. A strong IELTS score sets you apart in academic and immigration applications. Sri SaiRam IELTS Coaching offers a rigorous training program tailored to maximize your IELTS score. Whether you're a student aspiring to study abroad or an immigrant applicant to countries like Canada and Australia, our program equips you with the language skills needed to excel in your endeavors. Join us to unlock new opportunities with the IELTS",
+};
+
+export const IELTS_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive IELTS coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the IELTS test:",
+  subHeading: "IELTS Test Overview [Total Duration: 2 hours 45 minutes]",
+  contentPoints: [
+    { title: "Listening :", content: "30 minutes" },
+    { title: "General Training Reading :", content: "60 minutes" },
+    { title: "General Training Writing :", content: "60 minutes" },
+    { title: "Speaking :", content: "11 to 14 minutes" },
+  ],
+  tailContent:
+    "Unlock the potential to attain the IELTS score that truly counts!",
+};
+
+export const IELTS_course_eligibility = {
+  mainHeading: "IELTS Eligibility Requirements",
+  mainContent:
+    "To take the IELTS exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement: ",
+      content: "Minimum age of 16 is required to appear for the IELTS exam.",
+    },
+    {
+      title: "Identification Proof: ",
+      content:
+        "You will be required to present a valid passport as your primary identification document.",
+    },
+    {
+      title: "Eligible Countries: ",
+      content:
+        "The IELTS exam is widely recognized in numerous countries, including but not limited to the UK, USA, Canada, New Zealand, and Australia.",
+    },
+    {
+      title: "Minimum Score: ",
+      content:
+        "The minimum score required in the IELTS exam varies from one university to another. Typically, a minimum of 5.5 in each band score is expected, although specific score requirements may vary by institution.",
+    },
+  ],
+};
+
+export const IELTS_types = {
+  title: "IELTS Types",
+  content:
+    "The IELTS exams come in two main categories: the IELTS Academic exam and the IELTS General Training exam.",
+  types: [
+    {
+      title: "IELTS Academic Test: ",
+      content:
+        "ailored for individuals pursuing higher education or professional accreditation in English-speaking countries, the IELTS Academic test is widely accepted by academic institutions.",
+    },
+    {
+      title: "IELTS General Training Test:",
+      content:
+        "This variant is primarily chosen by individuals looking to immigrate or work in English-speaking countries like Australia, Canada, and the United Kingdom. It focuses on assessing skills essential for success in a work environment.",
+    },
+  ],
 };
