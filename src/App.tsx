@@ -12,8 +12,9 @@ import Ourservices from "./pages/ourservices/Ourservices";
 import SocialMediaNavigator from "./components/SocialMediaNavigator";
 import StudyVisa from "./pages/ourservices/StudyVisa";
 import CareHomeVisa from "./pages/ourservices/CareHomeVisa";
-import CommunicationTraining from "./pages/ourservices/CommunicationTraining";
 import Ielts from "./pages/ourservices/Ielts";
+import Toelf from "./pages/ourservices/Toefl";
+import CommunicationalTrainingPage from "./pages/ourservices/CommunicationalTrainingPage";
 
 function App() {
   return (
@@ -40,9 +41,10 @@ function App() {
               ></Route>
               <Route
                 path={paths.COMMUNICATIONTRAINING}
-                element={<CommunicationTraining />}
+                element={<CommunicationalTrainingPage />}
               ></Route>
               <Route path={paths.IELTS} element={<Ielts />}></Route>
+              <Route path={paths.TOEFL} element={<Toelf />}></Route>
             </Route>
           </Routes>
         </ThemeProvider>

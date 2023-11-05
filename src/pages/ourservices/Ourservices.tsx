@@ -21,7 +21,7 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import { paths } from "../../routes/paths";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
-import CommunicationTraining from "./CommunicationTraining";
+import CommunicationTraining from "../../components/CommunicationTraining";
 
 function Ourservices() {
   const matches = useMediaQuery("(min-width:1100px)");

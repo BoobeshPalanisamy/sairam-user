@@ -68,7 +68,7 @@ export const ourServices_jobGuidance = [
 // Country Page
 export const countryDetails = [
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "UK",
     cardContent:
       " The UK is renowned for its world-class universities, offering top-notch education, and its vibrant cities including London, which is a global financial hub.",
@@ -77,7 +77,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "Canada",
     cardContent:
       " Canada is renowned for its world-class universities, offering top-notch education, and its vibrant cities including Toronto, which is a global financial hub.",
@@ -86,7 +86,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "USA",
     cardContent:
       " The USA is renowned for its world-class universities, offering top-notch education, and its vibrant cities including New York, which is a global financial hub.",
@@ -95,7 +95,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "New Zealand",
     cardContent:
       " New Zealand is renowned for its world-class universities, offering top-notch education, and its natural beauty.",
@@ -104,7 +104,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "Australia",
     cardContent:
       " Australia is renowned for its world-class universities, offering top-notch education, and its diverse landscapes.",
@@ -258,6 +258,12 @@ export const ourServices_communicationTraining = [
     path: "/ielts",
   },
   {
+    title: "TOEFL",
+    content:
+      "TOEFL, the Test of English as a Foreign Language, is a globally recognized exam that assesses your English language proficiency, essential for academic and professional success.",
+    path: "/toefl",
+  },
+  {
     title: "PTE",
     content:
       "Unlock your pathway to global opportunities with the PTE (Pearson Test of English) - a trusted English language proficiency test recognized by universities and institutions worldwide.",
@@ -266,11 +272,6 @@ export const ourServices_communicationTraining = [
     title: "OET",
     content:
       "OET, is an internationally recognized language proficiency examination designed for healthcare professionals, assessing their English language skills in a healthcare context.",
-  },
-  {
-    title: "TOELF",
-    content:
-      "TOEFL, the Test of English as a Foreign Language, is a globally recognized exam that assesses your English language proficiency, essential for academic and professional success.",
   },
   {
     title: "Duolingo",
@@ -396,10 +397,10 @@ export const IELTS_course_highlight = {
     "Discover the comprehensive IELTS coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the IELTS test:",
   subHeading: "IELTS Test Overview [Total Duration: 2 hours 45 minutes]",
   contentPoints: [
-    { title: "Listening :", content: "30 minutes" },
-    { title: "General Training Reading :", content: "60 minutes" },
-    { title: "General Training Writing :", content: "60 minutes" },
-    { title: "Speaking :", content: "11 to 14 minutes" },
+    { title: "Listening : ", content: "30 minutes" },
+    { title: "General Training Reading : ", content: "60 minutes" },
+    { title: "General Training Writing : ", content: "60 minutes" },
+    { title: "Speaking : ", content: "11 to 14 minutes" },
   ],
   tailContent:
     "Unlock the potential to attain the IELTS score that truly counts!",
@@ -440,12 +441,83 @@ export const IELTS_types = {
     {
       title: "IELTS Academic Test: ",
       content:
-        "ailored for individuals pursuing higher education or professional accreditation in English-speaking countries, the IELTS Academic test is widely accepted by academic institutions.",
+        "Conducted for individuals pursuing higher education or professional accreditation in English-speaking countries, the IELTS Academic test is widely accepted by academic institutions.",
     },
     {
       title: "IELTS General Training Test:",
       content:
         "This variant is primarily chosen by individuals looking to immigrate or work in English-speaking countries like Australia, Canada, and the United Kingdom. It focuses on assessing skills essential for success in a work environment.",
+    },
+  ],
+};
+
+// TOEFL Page
+export const TOEFL_page = {
+  content:
+    "TOEFL (Test of English as a Foreign Language) is a globally recognized English proficiency test essential for students aspiring to study abroad or individuals planning to immigrate to English-speaking countries. It stands as one of the most widely administered exams worldwide. While sharing similarities in testing patterns with other English proficiency tests like IELTS, TOEFL is often the preferred choice for many students due to its widespread acceptance by universities around the world. Enrolling in professional TOEFL coaching can significantly enhance your chances of achieving high scores on this test with ease.",
+};
+
+export const TOEFL_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive TOEFL coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the TOEFL test:",
+  subHeading:
+    "TOEFL Test Overview [Total Duration:3 hours (TOEFL iBT) & 1½ hours (TOEFL Essentials)]",
+  contentPoints: [
+    { title: "Reading : ", content: "60 to 80 minutes" },
+    { title: "Listening : ", content: "60 to 90 minutes" },
+    { title: "Speaking : ", content: "20 minutes" },
+    { title: "Writing : ", content: "50 minutes" },
+  ],
+  tailContent:
+    "Unlock the potential to attain the TOEFL score that truly counts!",
+};
+
+export const TOEFL_course_eligibility = {
+  mainHeading: "TOEFL Eligibility Requirements",
+  mainContent:
+    "To take the TOEFL exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement : ",
+      content: "Minimum age of 18 is required to appear for the TOEFL exam.",
+    },
+    {
+      title: "Identification Proof : ",
+      content:
+        "You will be required to present a valid passport as your primary identification document.",
+    },
+    {
+      title: "Eligible Countries : ",
+      content:
+        "The TOEFL exam is widely recognized in numerous countries, including but not limited to the UK, USA, Canada, New Zealand, and Australia.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "No minimum score. Min 100 is qualifying for abroad opportunities",
+    },
+    {
+      title: "How long is TOEFL score valid? : ",
+      content: "TOEFL scores remain valid for 2 years after the test date.",
+    },
+  ],
+};
+
+export const TOEFL_types = {
+  title: "TOEFL Types",
+  content:
+    "The ETS (Educational Testing Service) administers the TOEFL test in two distinct formats: TOEFL iBT and TOEFL Essentials.",
+  types: [
+    {
+      title: "TOEFL iBT (Internet-Based Test): ",
+      content:
+        "TOEFL iBT is a widely recognized English proficiency test that evaluates your English language skills in listening, reading, writing, and speaking. It is taken online and measures your ability to communicate effectively in academic and everyday settings.",
+    },
+    {
+      title: "TOEFL Essentials:",
+      content:
+        "TOEFL Essentials is a shorter, at-home test designed to provide a quick and reliable assessment of your English language proficiency. It assesses your listening, reading, and speaking skills in a shorter format, making it a convenient option for those with limited time.",
     },
   ],
 };
