@@ -267,6 +267,7 @@ export const ourServices_communicationTraining = [
     title: "PTE",
     content:
       "Unlock your pathway to global opportunities with the PTE (Pearson Test of English) - a trusted English language proficiency test recognized by universities and institutions worldwide.",
+    path: "/pte",
   },
   {
     title: "OET",
@@ -277,6 +278,7 @@ export const ourServices_communicationTraining = [
     title: "Duolingo",
     content:
       "Duolingo: Your passport to a world of language learning, offering fun and effective lessons for mastering new languages.",
+    path: "/duolingo",
   },
   {
     title: "Interview Training",
@@ -518,6 +520,113 @@ export const TOEFL_types = {
       title: "TOEFL Essentials:",
       content:
         "TOEFL Essentials is a shorter, at-home test designed to provide a quick and reliable assessment of your English language proficiency. It assesses your listening, reading, and speaking skills in a shorter format, making it a convenient option for those with limited time.",
+    },
+  ],
+};
+
+//PTE Page
+
+export const PTE_page = {
+  content:
+    "The Pearson Test of English (PTE) is an internationally recognized English language proficiency exam designed to assess the speaking, writing, listening, and reading skills of non-native English speakers. It is widely accepted by universities, colleges, and immigration authorities worldwide, making it a popular choice for those seeking to study or work in English-speaking countries. The exam is entirely computer-based, offering a fair and unbiased assessment of language skills. PTE provides quick results, usually within a few days, allowing test-takers to plan their academic or career goals efficiently. With its focus on real-life communication scenarios, PTE evaluates a test-taker's ability to use English in practical situations, making it a valuable tool for assessing language proficiency.",
+};
+
+export const PTE_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive PTE coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the PTE test:",
+  subHeading: "PTE Test Overview [Total Duration:2 hours & 15 minutes]",
+  contentPoints: [
+    { title: "Speaking & Writing : ", content: "54 to 67 minutes" },
+    { title: "Reading : ", content: "29 to 30 minutes" },
+    { title: "Listening : ", content: "30 to 43 minutes" },
+  ],
+  tailContent:
+    "Unlock the potential to attain the PTE score that truly counts!",
+};
+
+export const PTE_course_eligibility = {
+  mainHeading: "PTE Eligibility Requirements",
+  mainContent:
+    "To take the PTE exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement : ",
+      content: "Minimum age of 16 is required to appear for the PTE exam.",
+    },
+    {
+      title: "PTE Test Dates : ",
+      content:
+        "Typically scheduled during the months of February, May, June, November, and December.",
+    },
+    {
+      title: "Eligible Countries : ",
+      content:
+        "The PTE exam is widely recognized in numerous countries, including but not limited to the UK, USA, Canada, Germany, and Australia.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "No minimum score. Min 50-63 is qualifying for abroad opportunities.",
+    },
+  ],
+};
+
+export const PTE_types = {
+  title: "PTE Types",
+  content:
+    "The PTE (Pearson Test of English) offers two distinct versions to cater to various language needs: PTE Academic and PTE General",
+  types: [
+    {
+      title: "PTE Academic : ",
+      content:
+        "Designed for those seeking to pursue their academic dreams in English-speaking undergraduate or postgraduate programs abroad.",
+    },
+    {
+      title: "PTE General :",
+      content:
+        "A test specifically created to evaluate an individual's English communication abilities and their readiness to integrate into an English-speaking community, particularly for immigrants.",
+    },
+  ],
+};
+
+//Duolingo Page
+
+export const Duolingo_page = {
+  content:
+    "Duolingo is a popular language learning platform that has revolutionized the way people acquire new languages. This user-friendly app offers a diverse range of language courses, making it accessible to learners of all levels. With its gamified approach, Duolingo makes language learning engaging and fun. Whether you're a beginner looking to grasp the basics or an advanced learner seeking fluency, Duolingo provides interactive lessons and exercises to accommodate your language journey. Plus, it's accessible on various devices, allowing you to practice and improve your language skills anytime, anywhere.",
+};
+
+export const Duolingo_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive Duolingo coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the Duolingo test:",
+  subHeading: "Duolingo Test Overview [Total Duration:One hour]",
+  contentPoints:
+    "Our adaptive test is designed to evaluate your proficiency in reading, writing, listening, and speaking. This assessment typically takes about 45 minutes to complete. Additionally, we offer a 10-minute video interview option, where you can share your responses to open-ended questions.",
+  tailContent:
+    "Unlock the potential to attain the Duolingo score that truly counts!",
+};
+
+export const Duolingo_course_eligibility = {
+  mainHeading: "Duolingo Eligibility Requirements",
+  mainContent:
+    "To take the Duolingo exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement : ",
+      content:
+        "Unlike age or academic prerequisites, the Duolingo English test doesn't have specific criteria. The only requirements are access to a suitable testing environment, a computer, and other basic equipment.",
+    },
+    {
+      title: "Test Frequency : ",
+      content:
+        "Candidates have the flexibility to take the test as often as they wish. However, there is a limit of three test purchases within a 30-day period. After completing and submitting a test, it's necessary to await the results before proceeding to the next one. The 30-day period begins with the purchase of your first test.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "Candidates receive a total score between 10 and 160 upon completing the Duolingo test. This score is cumulative and not broken down into individual sections. To qualify for top international programs, a score exceeding 120 is typically required.",
     },
   ],
 };

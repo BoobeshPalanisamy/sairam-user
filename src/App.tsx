@@ -15,6 +15,8 @@ import CareHomeVisa from "./pages/ourservices/CareHomeVisa";
 import Ielts from "./pages/ourservices/Ielts";
 import Toelf from "./pages/ourservices/Toefl";
 import CommunicationalTrainingPage from "./pages/ourservices/CommunicationalTrainingPage";
+import Pte from "./pages/ourservices/Pte";
+import Duolingo from "./pages/ourservices/Duolingo";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
               ></Route>
               <Route path={paths.IELTS} element={<Ielts />}></Route>
               <Route path={paths.TOEFL} element={<Toelf />}></Route>
+              <Route path={paths.PTE} element={<Pte />}></Route>
+              <Route path={paths.DUOLINGO} element={<Duolingo />}></Route>
             </Route>
           </Routes>
         </ThemeProvider>
