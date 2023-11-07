@@ -125,12 +125,20 @@ export const homePageTrainingAndService = [
     path: "/communicationtraining",
   },
   {
+    image: "assets/home/serviceandtraining/Visa_Sairam.png",
+    name: "Visa_Sairam",
+    content: "Visa Service",
+    description:
+      "Let us take the hassle out of visa arrangements for you. Our expert team ensures a seamless and stress-free process, so you can focus on your academic journey.",
+    path: "/ourservices",
+  },
+  {
     image: "assets/home/serviceandtraining/profilewriting_sairam.png",
     name: "Profile_Writing_sairam",
     content: "Profile writing",
     description:
       "Our profile writing services assist you in crafting impressive and professional profiles for job applications or college admissions, making a strong first impression.",
-    path: "/communicationtraining",
+    path: "/jobguidance",
   },
   {
     image: "assets/home/serviceandtraining/CV_writing_sairam.png",
@@ -138,31 +146,15 @@ export const homePageTrainingAndService = [
     content: "CV Writing services",
     description:
       "Our CV writing services are tailored to showcase your skills and experiences, helping you create a compelling and standout CV for job applications and career advancement.",
-    path: "/communicationtraining",
-  },
-  {
-    image: "assets/home/serviceandtraining/interview_training_sairam.png",
-    name: "Interview_Training_sairam",
-    content: "Interview Training",
-    description:
-      "Our interview training program hones your interview skills, providing you with the confidence and techniques necessary to excel in job interviews and admissions interviews.",
-    path: "/communicationtraining",
+    path: "/jobguidance",
   },
   {
     image: "assets/ourservices/academicGuidance/projects_sairam.png",
     name: "project_works_sairam",
-    content: "Project Works",
+    content: "Project & Assignment Works",
     description:
-      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence.",
-    path: "/communicationtraining",
-  },
-  {
-    image: "assets/ourservices/academicGuidance/assignment_sairam.png",
-    name: "assignment_writing_sairam",
-    content: "Assignment Writing",
-    description:
-      "Our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
-    path: "/communicationtraining",
+      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence and our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
+    path: "/academicguidance",
   },
   {
     image: "assets/ourservices/academicGuidance/finance_sairam.png",
@@ -170,7 +162,7 @@ export const homePageTrainingAndService = [
     content: "Financial Analysis",
     description:
       "Get expert support for financial analysis, enabling you to make informed decisions and excel in finance-related projects or careers.",
-    path: "/communicationtraining",
+    path: "/academicguidance",
   },
   {
     image: "assets/ourservices/academicGuidance/research_sairam.png",
@@ -178,7 +170,15 @@ export const homePageTrainingAndService = [
     content: "Research Paper Writing",
     description:
       "Our research paper writing services assist you in producing well-researched, academically sound research papers for various disciplines and purposes.",
-    path: "/communicationtraining",
+    path: "/academicguidance",
+  },
+  {
+    image: "assets/home/serviceandtraining/Manpower_sairam.png",
+    name: "manpower_sairam",
+    content: "Manpower Service",
+    description:
+      "Your Trusted Source for Comprehensive Manpower Services in India and Abroad. Explore our extensive network and find the perfect match for your workforce needs.",
+    path: "/manpowerservice",
   },
 ];
 
@@ -273,6 +273,7 @@ export const ourServices_communicationTraining = [
     title: "OET",
     content:
       "OET, is an internationally recognized language proficiency examination designed for healthcare professionals, assessing their English language skills in a healthcare context.",
+    path: "/oet",
   },
   {
     title: "Duolingo",
@@ -284,6 +285,7 @@ export const ourServices_communicationTraining = [
     title: "Interview Training",
     content:
       "Prepare for success with our expert abroad university interview training. We'll equip you with the skills and confidence to excel in your university admissions interview.",
+    path: "/interviewtraining",
   },
 ];
 
@@ -627,6 +629,79 @@ export const Duolingo_course_eligibility = {
       title: "Minimum Score : ",
       content:
         "Candidates receive a total score between 10 and 160 upon completing the Duolingo test. This score is cumulative and not broken down into individual sections. To qualify for top international programs, a score exceeding 120 is typically required.",
+    },
+  ],
+};
+
+// OET Page
+export const OET_page = {
+  content:
+    "The Occupational English Test (OET) is a specialized language proficiency examination designed for healthcare professionals. It assesses their language skills in a medical context, ensuring they can effectively communicate with patients and colleagues. OET covers four key language skills: Listening, Reading, Writing, and Speaking. It is recognized by healthcare boards and institutions worldwide, making it an essential certification for those pursuing careers in the healthcare industry. OET offers a unique opportunity for medical professionals to demonstrate their language competence, helping them embark on successful journeys in healthcare, both at home and abroad.",
+};
+
+export const OET_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive OET coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the OET test:",
+  subHeading:
+    "Experience the flexibility of OET examination modes, which cater to your convenience and preferences:",
+  contentPoints: [
+    {
+      title: "OET on Physical Paper at a Test Venue : ",
+      content:
+        "Sit for your OET exam at a designated test venue on traditional paper to demonstrate your skills in a familiar format.",
+    },
+    {
+      title: "OET on Computer at a Test Venue : ",
+      content:
+        "Take your OET exam on a computer at a certified test venue, providing a digital approach to assessment.",
+    },
+    {
+      title: "OET at Home : ",
+      content:
+        "Enjoy the convenience of taking your OET exam from the comfort of your own home, offering a flexible and accessible option.",
+    },
+  ],
+};
+
+export const OET_course_eligibility = {
+  mainHeading: "OET Eligibility Requirements",
+  mainContent:
+    "To take the OET exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Countries Accepting OET : ",
+      content:
+        "United States of America, United Arab Emirates, United Kingdom, Ukraine, Spain, Singapore, Qatar, Philippines, NewZealand, Namibia, Malta, Maldives, Ireland, Canada, Australia",
+    },
+    {
+      title: "Who can attend OET : ",
+      content:
+        "Medical professionals or students pursuing advanced studies in the field of medicine.Healthcare professionals specializing in one of the 12 designated fields.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "To pass the OET exam, you need to score at least 350 on each of the four sub-tests: Listening, Reading, Speaking, and Writing.",
+    },
+  ],
+};
+
+// Manpower page
+export const manPower_content = {
+  content: [
+    "Welcome to SriSaiRam ManpowerService, your gateway to exciting career opportunities both in India and abroad. We specialize in providing manpower services for a wide range of positions, ensuring you find the perfect job that aligns with your skills and aspirations.",
+    "Our extensive network of employers, coupled with our commitment to connecting the right talent with the right job, makes us your trusted partner in the job search journey. Whether you're a fresh graduate looking for your first job, an experienced professional seeking new horizons, or an individual with specialized skills, we have a variety of job openings to suit your needs.",
+    "Explore our job listings and take the next step towards a rewarding career. Join us in your quest for new and fulfilling employment opportunities. Your dream job awaits!",
+  ],
+  careers: [
+    {
+      image: "assets/ourservices/careers/Careers_Sairam.jpg",
+      name: "careers_sairam",
+    },
+    {
+      image: "assets/ourservices/careers/Careers_Sairam.jpg",
+      name: "careers_sairam",
     },
   ],
 };

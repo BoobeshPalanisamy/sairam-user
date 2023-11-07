@@ -3,6 +3,8 @@ import FeedBack from "../../components/FeedBack";
 import FlagSlider from "../../components/FlagSlider";
 import theme from "../../theme/theme";
 import HomePageTrainingandServices from "../../components/HomePageTrainingandServices";
+import { Link } from "react-router-dom";
+import { paths } from "../../routes/paths";
 
 function Home() {
   const matches = useMediaQuery("(max-width:600px)");
@@ -61,16 +63,112 @@ function Home() {
             sx={{
               textAlign: "center",
               paddingBottom: "20px",
-              fontSize: matches ? "20px" : "30px",
+              fontSize: matches ? "15px" : "20px",
             }}
           >
-            We are a trustworthy & best overseas education consultants
-            Coimbatore committed to assisting learning aspirants to pursue their
-            education abroad. We are ready to complete your abroad admission
-            pressure with our full-hearted from beginning to end. The study
-            abroad consultants Coimbatore covers a vibrant team who opens the
-            doors of success with a precise process to make your dream fly
-            higher.
+            Welcome to Sri SaiRam Academic and Career Consultancy! We are your
+            comprehensive solution provider, offering a range of services
+            including visa processing for &nbsp;
+            <Link
+              to={paths.STUDYVISA}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              Study visas
+            </Link>
+            &nbsp;and &nbsp;
+            <Link
+              to={paths.CAREHOMEVISA}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              Carehome visas
+            </Link>
+            ,&nbsp;
+            <Link
+              to={paths.IELTS}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              IELTS
+            </Link>
+            &nbsp; and&nbsp;
+            <Link
+              to={paths.TOEFL}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              TOEFL
+            </Link>
+            &nbsp; preparation,&nbsp;
+            <Link
+              to={paths.ACADEMICGUIDANCE}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              Academic guidance
+            </Link>
+            , &nbsp;
+            <Link
+              to={paths.JOBGUIDANCE}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              Job Guidance
+            </Link>
+            , and top-notch &nbsp;
+            <Link
+              to={paths.COMMUNICATIONTRAINING}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              Communication training
+            </Link>
+            ,&nbsp;
+            <Link
+              to={paths.MANPOWER}
+              style={{
+                textDecoration: "none",
+                color: theme.palette.secondary.main,
+                fontSize: matches ? "17px" : "22px",
+              }}
+              target="_blank"
+            >
+              Manpower Provider
+            </Link>
+            . Whether you're a student aspiring to study abroad, seeking
+            homecare opportunities, or looking to enhance your language
+            proficiency and career prospects, we're here to guide you every step
+            of the way. Let us empower your academic and career journey with our
+            expertise and personalized support.
           </Typography>
         </Box>
       </Container>

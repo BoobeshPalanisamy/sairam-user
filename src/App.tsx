@@ -17,6 +17,11 @@ import Toelf from "./pages/ourservices/Toefl";
 import CommunicationalTrainingPage from "./pages/ourservices/CommunicationalTrainingPage";
 import Pte from "./pages/ourservices/Pte";
 import Duolingo from "./pages/ourservices/Duolingo";
+import Oet from "./pages/ourservices/Oet";
+import InterviewTraining from "./pages/ourservices/InterviewTraining";
+import AcademicGuidance from "./components/AcademicGuidance";
+import JobGuidance from "./components/JobGuidance";
+import ManpowerService from "./components/ManpowerService";
 
 function App() {
   return (
@@ -49,6 +54,20 @@ function App() {
               <Route path={paths.TOEFL} element={<Toelf />}></Route>
               <Route path={paths.PTE} element={<Pte />}></Route>
               <Route path={paths.DUOLINGO} element={<Duolingo />}></Route>
+              <Route path={paths.OET} element={<Oet />}></Route>
+              <Route
+                path={paths.INTERVIEWTRAINING}
+                element={<InterviewTraining />}
+              ></Route>
+              <Route
+                path={paths.ACADEMICGUIDANCE}
+                element={<AcademicGuidance />}
+              ></Route>
+              <Route path={paths.JOBGUIDANCE} element={<JobGuidance />}></Route>
+              <Route
+                path={paths.MANPOWER}
+                element={<ManpowerService />}
+              ></Route>
             </Route>
           </Routes>
         </ThemeProvider>
