@@ -11,7 +11,7 @@ function AboutUs() {
   return (
     <>
       <PageBanner
-        imageUrl="assets\aboutus\aboutus_banner_sairam.jpeg"
+        imageUrl="assets\aboutus\aboutus_banner_sairam.jpg"
         content="AboutUs"
       />
       <Grid

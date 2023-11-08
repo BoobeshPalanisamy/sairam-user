@@ -7,16 +7,15 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import {
-  IELTS_course_eligibility,
-  IELTS_course_highlight,
-  IELTS_page,
-  IELTS_types,
+  TOEFL_course_eligibility,
+  TOEFL_course_highlight,
+  TOEFL_page,
+  TOEFL_types,
 } from "../../seed-data/seed-data";
 import ContactUsForm from "../../components/ContactUsForm";
 import theme from "../../theme/theme";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-
-function Ielts() {
+function Toefl() {
   const belowMediumDevice = useMediaQuery("(max-width:600px)");
   const largeDevice = useMediaQuery("(min-width:1000px)");
   return (
@@ -26,7 +25,7 @@ function Ielts() {
           <Box>
             <Box>
               <img
-                src="assets\ourservices\IELTS_Coaching_Sairam.jpg"
+                src="assets\ourservices\Toefl_sairam.webp"
                 alt="srisairam-academy-consultancy"
                 width="100%"
                 style={{ height: belowMediumDevice ? "250px" : "500px" }}
@@ -42,7 +41,7 @@ function Ielts() {
       <Container>
         <h1 style={{ textAlign: "center" }}>
           <span style={{ color: theme.palette.primary.main }}>
-            Sir SaiRam IELTS
+            Sir SaiRam TOEFL
           </span>
           &nbsp; Coaching and Guidance Centre
         </h1>
@@ -58,8 +57,8 @@ function Ielts() {
             }}
           >
             <img
-              src="assets\ourservices\IELTS_sairam.jpg"
-              alt="ielts_sairam"
+              src="assets\ourservices\toefl_training_sairam.jpg"
+              alt="toefl_sairam"
               width="100%"
               style={{ height: largeDevice ? "70vh" : "50vh" }}
             />
@@ -74,10 +73,10 @@ function Ielts() {
           >
             <Container>
               <Typography style={{ fontSize: "25px", fontWeight: "bolder" }}>
-                About IELTS
+                About TOEFL
               </Typography>
               <Typography sx={{ textAlign: "justify", fontSize: "15px" }}>
-                {IELTS_page.content}
+                {TOEFL_page.content}
               </Typography>
             </Container>
           </Grid>
@@ -91,13 +90,13 @@ function Ielts() {
                 color: theme.palette.primary.main,
               }}
             >
-              {IELTS_course_highlight.mainHeading}
+              {TOEFL_course_highlight.mainHeading}
             </Typography>
-            <Typography p={1}>{IELTS_course_highlight.mainContent}</Typography>
+            <Typography p={1}>{TOEFL_course_highlight.mainContent}</Typography>
             <Typography sx={{ fontWeight: "bolder", fontSize: "20px" }}>
-              {IELTS_course_highlight.subHeading}
+              {TOEFL_course_highlight.subHeading}
             </Typography>
-            {IELTS_course_highlight.contentPoints.map((point, index) => (
+            {TOEFL_course_highlight.contentPoints.map((point, index) => (
               <Box key={index}>
                 <Typography>
                   <span
@@ -113,7 +112,7 @@ function Ielts() {
                 </Typography>
               </Box>
             ))}
-            <Typography>{IELTS_course_highlight.tailContent}</Typography>
+            <Typography>{TOEFL_course_highlight.tailContent}</Typography>
           </Grid>
           <Grid item md={6} xs={12} sx={{ marginTop: { xs: "10px" } }}>
             <Typography
@@ -123,12 +122,12 @@ function Ielts() {
                 color: theme.palette.primary.main,
               }}
             >
-              {IELTS_course_eligibility.mainHeading}
+              {TOEFL_course_eligibility.mainHeading}
             </Typography>
             <Typography p={1}>
-              {IELTS_course_eligibility.mainContent}
+              {TOEFL_course_eligibility.mainContent}
             </Typography>
-            {IELTS_course_eligibility.contentPoints.map((point, index) => (
+            {TOEFL_course_eligibility.contentPoints.map((point, index) => (
               <Box key={index}>
                 <Typography textAlign="justify">
                   <span
@@ -154,12 +153,12 @@ function Ielts() {
               color: theme.palette.primary.main,
             }}
           >
-            {IELTS_types.title}
+            {TOEFL_types.title}
           </Typography>
           <Typography p={1} textAlign="justify">
-            {IELTS_types.content}
+            {TOEFL_types.content}
           </Typography>
-          {IELTS_types.types.map((type, index) => (
+          {TOEFL_types.types.map((type, index) => (
             <Box key={index}>
               <Typography fontWeight="bolder">{type.title}</Typography>
               <Typography p={1} textAlign="justify">
@@ -176,7 +175,7 @@ function Ielts() {
             color: theme.palette.secondary.main,
           }}
         >
-          For asking queries about IELTS and test and also for book demo/mock
+          For asking queries about TOEFL and test and also for book demo/mock
           test 👇
         </Typography>
         <Box
@@ -213,4 +212,4 @@ function Ielts() {
   );
 }
 
-export default Ielts;
+export default Toefl;

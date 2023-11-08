@@ -7,16 +7,15 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import {
-  IELTS_course_eligibility,
-  IELTS_course_highlight,
-  IELTS_page,
-  IELTS_types,
+  OET_course_eligibility,
+  OET_course_highlight,
+  OET_page,
 } from "../../seed-data/seed-data";
 import ContactUsForm from "../../components/ContactUsForm";
 import theme from "../../theme/theme";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 
-function Ielts() {
+function Oet() {
   const belowMediumDevice = useMediaQuery("(max-width:600px)");
   const largeDevice = useMediaQuery("(min-width:1000px)");
   return (
@@ -26,7 +25,7 @@ function Ielts() {
           <Box>
             <Box>
               <img
-                src="assets\ourservices\IELTS_Coaching_Sairam.jpg"
+                src="assets\ourservices\oet-exam_sairam.jpg"
                 alt="srisairam-academy-consultancy"
                 width="100%"
                 style={{ height: belowMediumDevice ? "250px" : "500px" }}
@@ -42,7 +41,7 @@ function Ielts() {
       <Container>
         <h1 style={{ textAlign: "center" }}>
           <span style={{ color: theme.palette.primary.main }}>
-            Sir SaiRam IELTS
+            Sir SaiRam OET
           </span>
           &nbsp; Coaching and Guidance Centre
         </h1>
@@ -58,7 +57,7 @@ function Ielts() {
             }}
           >
             <img
-              src="assets\ourservices\IELTS_sairam.jpg"
+              src="assets\ourservices\Sairam_oet.jpg"
               alt="ielts_sairam"
               width="100%"
               style={{ height: largeDevice ? "70vh" : "50vh" }}
@@ -74,15 +73,15 @@ function Ielts() {
           >
             <Container>
               <Typography style={{ fontSize: "25px", fontWeight: "bolder" }}>
-                About IELTS
+                About OET
               </Typography>
               <Typography sx={{ textAlign: "justify", fontSize: "15px" }}>
-                {IELTS_page.content}
+                {OET_page.content}
               </Typography>
             </Container>
           </Grid>
         </Grid>
-        <Grid container sx={{ border: { md: "1px solid black" } }} p={2} mt={2}>
+        <Grid container sx={{ bgcolor: "#f3f3f3" }} p={2} mt={2}>
           <Grid item md={6} xs={12}>
             <Typography
               sx={{
@@ -91,13 +90,13 @@ function Ielts() {
                 color: theme.palette.primary.main,
               }}
             >
-              {IELTS_course_highlight.mainHeading}
+              {OET_course_highlight.mainHeading}
             </Typography>
-            <Typography p={1}>{IELTS_course_highlight.mainContent}</Typography>
+            <Typography p={1}>{OET_course_highlight.mainContent}</Typography>
             <Typography sx={{ fontWeight: "bolder", fontSize: "20px" }}>
-              {IELTS_course_highlight.subHeading}
+              {OET_course_highlight.subHeading}
             </Typography>
-            {IELTS_course_highlight.contentPoints.map((point, index) => (
+            {OET_course_highlight.contentPoints.map((point, index) => (
               <Box key={index}>
                 <Typography>
                   <span
@@ -113,7 +112,6 @@ function Ielts() {
                 </Typography>
               </Box>
             ))}
-            <Typography>{IELTS_course_highlight.tailContent}</Typography>
           </Grid>
           <Grid item md={6} xs={12} sx={{ marginTop: { xs: "10px" } }}>
             <Typography
@@ -123,12 +121,10 @@ function Ielts() {
                 color: theme.palette.primary.main,
               }}
             >
-              {IELTS_course_eligibility.mainHeading}
+              {OET_course_eligibility.mainHeading}
             </Typography>
-            <Typography p={1}>
-              {IELTS_course_eligibility.mainContent}
-            </Typography>
-            {IELTS_course_eligibility.contentPoints.map((point, index) => (
+            <Typography p={1}>{OET_course_eligibility.mainContent}</Typography>
+            {OET_course_eligibility.contentPoints.map((point, index) => (
               <Box key={index}>
                 <Typography textAlign="justify">
                   <span
@@ -146,28 +142,6 @@ function Ielts() {
             ))}
           </Grid>
         </Grid>
-        <Box mt={2} p={2} sx={{ bgcolor: "#f3f3f3" }}>
-          <Typography
-            sx={{
-              fontWeight: "bolder",
-              fontSize: "30px",
-              color: theme.palette.primary.main,
-            }}
-          >
-            {IELTS_types.title}
-          </Typography>
-          <Typography p={1} textAlign="justify">
-            {IELTS_types.content}
-          </Typography>
-          {IELTS_types.types.map((type, index) => (
-            <Box key={index}>
-              <Typography fontWeight="bolder">{type.title}</Typography>
-              <Typography p={1} textAlign="justify">
-                {type.content}
-              </Typography>
-            </Box>
-          ))}
-        </Box>
         <Typography
           sx={{
             textAlign: "center",
@@ -176,8 +150,8 @@ function Ielts() {
             color: theme.palette.secondary.main,
           }}
         >
-          For asking queries about IELTS and test and also for book demo/mock
-          test 👇
+          For asking queries about OET and test and also for book demo/mock test
+          👇
         </Typography>
         <Box
           sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
@@ -213,4 +187,4 @@ function Ielts() {
   );
 }
 
-export default Ielts;
+export default Oet;

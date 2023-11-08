@@ -9,4 +9,12 @@ export enum paths {
   CAREHOMEVISA = "/carehomevisa",
   COMMUNICATIONTRAINING = "/communicationtraining",
   IELTS = "/ielts",
+  TOEFL = "/toefl",
+  PTE = "/pte",
+  DUOLINGO = "/duolingo",
+  OET = "/oet",
+  INTERVIEWTRAINING = "/interviewtraining",
+  ACADEMICGUIDANCE = "/academicguidance",
+  JOBGUIDANCE = "/jobguidance",
+  MANPOWER = "/manpowerservice",
 }

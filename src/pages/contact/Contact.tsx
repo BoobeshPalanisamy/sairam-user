@@ -10,7 +10,7 @@ function Contact() {
     <>
       <PageBanner
         imageUrl="assets\contactus\sairam_contact_banner.jpg"
-        content="Contact"
+        content="Contact Us"
       />
       <Box sx={{ marginTop: "30px" }}>
         <Container>

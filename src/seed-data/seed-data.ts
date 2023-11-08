@@ -68,7 +68,7 @@ export const ourServices_jobGuidance = [
 // Country Page
 export const countryDetails = [
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "UK",
     cardContent:
       " The UK is renowned for its world-class universities, offering top-notch education, and its vibrant cities including London, which is a global financial hub.",
@@ -77,7 +77,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "Canada",
     cardContent:
       " Canada is renowned for its world-class universities, offering top-notch education, and its vibrant cities including Toronto, which is a global financial hub.",
@@ -86,7 +86,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "USA",
     cardContent:
       " The USA is renowned for its world-class universities, offering top-notch education, and its vibrant cities including New York, which is a global financial hub.",
@@ -95,7 +95,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "New Zealand",
     cardContent:
       " New Zealand is renowned for its world-class universities, offering top-notch education, and its natural beauty.",
@@ -104,7 +104,7 @@ export const countryDetails = [
       " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    cardImageUrl: "assets/country/sairam_country_banner.jpeg",
+    cardImageUrl: "assets/country/sairam_country_banner.jpg",
     cardTitle: "Australia",
     cardContent:
       " Australia is renowned for its world-class universities, offering top-notch education, and its diverse landscapes.",
@@ -125,12 +125,20 @@ export const homePageTrainingAndService = [
     path: "/communicationtraining",
   },
   {
+    image: "assets/home/serviceandtraining/Visa_Sairam.png",
+    name: "Visa_Sairam",
+    content: "Visa Service",
+    description:
+      "Let us take the hassle out of visa arrangements for you. Our expert team ensures a seamless and stress-free process, so you can focus on your academic journey.",
+    path: "/ourservices",
+  },
+  {
     image: "assets/home/serviceandtraining/profilewriting_sairam.png",
     name: "Profile_Writing_sairam",
     content: "Profile writing",
     description:
       "Our profile writing services assist you in crafting impressive and professional profiles for job applications or college admissions, making a strong first impression.",
-    path: "/communicationtraining",
+    path: "/jobguidance",
   },
   {
     image: "assets/home/serviceandtraining/CV_writing_sairam.png",
@@ -138,31 +146,15 @@ export const homePageTrainingAndService = [
     content: "CV Writing services",
     description:
       "Our CV writing services are tailored to showcase your skills and experiences, helping you create a compelling and standout CV for job applications and career advancement.",
-    path: "/communicationtraining",
-  },
-  {
-    image: "assets/home/serviceandtraining/interview_training_sairam.png",
-    name: "Interview_Training_sairam",
-    content: "Interview Training",
-    description:
-      "Our interview training program hones your interview skills, providing you with the confidence and techniques necessary to excel in job interviews and admissions interviews.",
-    path: "/communicationtraining",
+    path: "/jobguidance",
   },
   {
     image: "assets/ourservices/academicGuidance/projects_sairam.png",
     name: "project_works_sairam",
-    content: "Project Works",
+    content: "Project & Assignment Works",
     description:
-      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence.",
-    path: "/communicationtraining",
-  },
-  {
-    image: "assets/ourservices/academicGuidance/assignment_sairam.png",
-    name: "assignment_writing_sairam",
-    content: "Assignment Writing",
-    description:
-      "Our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
-    path: "/communicationtraining",
+      "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence and our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
+    path: "/academicguidance",
   },
   {
     image: "assets/ourservices/academicGuidance/finance_sairam.png",
@@ -170,7 +162,7 @@ export const homePageTrainingAndService = [
     content: "Financial Analysis",
     description:
       "Get expert support for financial analysis, enabling you to make informed decisions and excel in finance-related projects or careers.",
-    path: "/communicationtraining",
+    path: "/academicguidance",
   },
   {
     image: "assets/ourservices/academicGuidance/research_sairam.png",
@@ -178,7 +170,15 @@ export const homePageTrainingAndService = [
     content: "Research Paper Writing",
     description:
       "Our research paper writing services assist you in producing well-researched, academically sound research papers for various disciplines and purposes.",
-    path: "/communicationtraining",
+    path: "/academicguidance",
+  },
+  {
+    image: "assets/home/serviceandtraining/Manpower_sairam.png",
+    name: "manpower_sairam",
+    content: "Manpower Service",
+    description:
+      "Your Trusted Source for Comprehensive Manpower Services in India and Abroad. Explore our extensive network and find the perfect match for your workforce needs.",
+    path: "/manpowerservice",
   },
 ];
 
@@ -258,29 +258,34 @@ export const ourServices_communicationTraining = [
     path: "/ielts",
   },
   {
+    title: "TOEFL",
+    content:
+      "TOEFL, the Test of English as a Foreign Language, is a globally recognized exam that assesses your English language proficiency, essential for academic and professional success.",
+    path: "/toefl",
+  },
+  {
     title: "PTE",
     content:
       "Unlock your pathway to global opportunities with the PTE (Pearson Test of English) - a trusted English language proficiency test recognized by universities and institutions worldwide.",
+    path: "/pte",
   },
   {
     title: "OET",
     content:
       "OET, is an internationally recognized language proficiency examination designed for healthcare professionals, assessing their English language skills in a healthcare context.",
-  },
-  {
-    title: "TOELF",
-    content:
-      "TOEFL, the Test of English as a Foreign Language, is a globally recognized exam that assesses your English language proficiency, essential for academic and professional success.",
+    path: "/oet",
   },
   {
     title: "Duolingo",
     content:
       "Duolingo: Your passport to a world of language learning, offering fun and effective lessons for mastering new languages.",
+    path: "/duolingo",
   },
   {
     title: "Interview Training",
     content:
       "Prepare for success with our expert abroad university interview training. We'll equip you with the skills and confidence to excel in your university admissions interview.",
+    path: "/interviewtraining",
   },
 ];
 
@@ -396,10 +401,10 @@ export const IELTS_course_highlight = {
     "Discover the comprehensive IELTS coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the IELTS test:",
   subHeading: "IELTS Test Overview [Total Duration: 2 hours 45 minutes]",
   contentPoints: [
-    { title: "Listening :", content: "30 minutes" },
-    { title: "General Training Reading :", content: "60 minutes" },
-    { title: "General Training Writing :", content: "60 minutes" },
-    { title: "Speaking :", content: "11 to 14 minutes" },
+    { title: "Listening : ", content: "30 minutes" },
+    { title: "General Training Reading : ", content: "60 minutes" },
+    { title: "General Training Writing : ", content: "60 minutes" },
+    { title: "Speaking : ", content: "11 to 14 minutes" },
   ],
   tailContent:
     "Unlock the potential to attain the IELTS score that truly counts!",
@@ -440,12 +445,263 @@ export const IELTS_types = {
     {
       title: "IELTS Academic Test: ",
       content:
-        "ailored for individuals pursuing higher education or professional accreditation in English-speaking countries, the IELTS Academic test is widely accepted by academic institutions.",
+        "Conducted for individuals pursuing higher education or professional accreditation in English-speaking countries, the IELTS Academic test is widely accepted by academic institutions.",
     },
     {
       title: "IELTS General Training Test:",
       content:
         "This variant is primarily chosen by individuals looking to immigrate or work in English-speaking countries like Australia, Canada, and the United Kingdom. It focuses on assessing skills essential for success in a work environment.",
+    },
+  ],
+};
+
+// TOEFL Page
+export const TOEFL_page = {
+  content:
+    "TOEFL (Test of English as a Foreign Language) is a globally recognized English proficiency test essential for students aspiring to study abroad or individuals planning to immigrate to English-speaking countries. It stands as one of the most widely administered exams worldwide. While sharing similarities in testing patterns with other English proficiency tests like IELTS, TOEFL is often the preferred choice for many students due to its widespread acceptance by universities around the world. Enrolling in professional TOEFL coaching can significantly enhance your chances of achieving high scores on this test with ease.",
+};
+
+export const TOEFL_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive TOEFL coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the TOEFL test:",
+  subHeading:
+    "TOEFL Test Overview [Total Duration:3 hours (TOEFL iBT) & 1½ hours (TOEFL Essentials)]",
+  contentPoints: [
+    { title: "Reading : ", content: "60 to 80 minutes" },
+    { title: "Listening : ", content: "60 to 90 minutes" },
+    { title: "Speaking : ", content: "20 minutes" },
+    { title: "Writing : ", content: "50 minutes" },
+  ],
+  tailContent:
+    "Unlock the potential to attain the TOEFL score that truly counts!",
+};
+
+export const TOEFL_course_eligibility = {
+  mainHeading: "TOEFL Eligibility Requirements",
+  mainContent:
+    "To take the TOEFL exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement : ",
+      content: "Minimum age of 18 is required to appear for the TOEFL exam.",
+    },
+    {
+      title: "Identification Proof : ",
+      content:
+        "You will be required to present a valid passport as your primary identification document.",
+    },
+    {
+      title: "Eligible Countries : ",
+      content:
+        "The TOEFL exam is widely recognized in numerous countries, including but not limited to the UK, USA, Canada, New Zealand, and Australia.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "No minimum score. Min 100 is qualifying for abroad opportunities",
+    },
+    {
+      title: "How long is TOEFL score valid? : ",
+      content: "TOEFL scores remain valid for 2 years after the test date.",
+    },
+  ],
+};
+
+export const TOEFL_types = {
+  title: "TOEFL Types",
+  content:
+    "The ETS (Educational Testing Service) administers the TOEFL test in two distinct formats: TOEFL iBT and TOEFL Essentials.",
+  types: [
+    {
+      title: "TOEFL iBT (Internet-Based Test): ",
+      content:
+        "TOEFL iBT is a widely recognized English proficiency test that evaluates your English language skills in listening, reading, writing, and speaking. It is taken online and measures your ability to communicate effectively in academic and everyday settings.",
+    },
+    {
+      title: "TOEFL Essentials:",
+      content:
+        "TOEFL Essentials is a shorter, at-home test designed to provide a quick and reliable assessment of your English language proficiency. It assesses your listening, reading, and speaking skills in a shorter format, making it a convenient option for those with limited time.",
+    },
+  ],
+};
+
+//PTE Page
+
+export const PTE_page = {
+  content:
+    "The Pearson Test of English (PTE) is an internationally recognized English language proficiency exam designed to assess the speaking, writing, listening, and reading skills of non-native English speakers. It is widely accepted by universities, colleges, and immigration authorities worldwide, making it a popular choice for those seeking to study or work in English-speaking countries. The exam is entirely computer-based, offering a fair and unbiased assessment of language skills. PTE provides quick results, usually within a few days, allowing test-takers to plan their academic or career goals efficiently. With its focus on real-life communication scenarios, PTE evaluates a test-taker's ability to use English in practical situations, making it a valuable tool for assessing language proficiency.",
+};
+
+export const PTE_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive PTE coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the PTE test:",
+  subHeading: "PTE Test Overview [Total Duration:2 hours & 15 minutes]",
+  contentPoints: [
+    { title: "Speaking & Writing : ", content: "54 to 67 minutes" },
+    { title: "Reading : ", content: "29 to 30 minutes" },
+    { title: "Listening : ", content: "30 to 43 minutes" },
+  ],
+  tailContent:
+    "Unlock the potential to attain the PTE score that truly counts!",
+};
+
+export const PTE_course_eligibility = {
+  mainHeading: "PTE Eligibility Requirements",
+  mainContent:
+    "To take the PTE exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement : ",
+      content: "Minimum age of 16 is required to appear for the PTE exam.",
+    },
+    {
+      title: "PTE Test Dates : ",
+      content:
+        "Typically scheduled during the months of February, May, June, November, and December.",
+    },
+    {
+      title: "Eligible Countries : ",
+      content:
+        "The PTE exam is widely recognized in numerous countries, including but not limited to the UK, USA, Canada, Germany, and Australia.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "No minimum score. Min 50-63 is qualifying for abroad opportunities.",
+    },
+  ],
+};
+
+export const PTE_types = {
+  title: "PTE Types",
+  content:
+    "The PTE (Pearson Test of English) offers two distinct versions to cater to various language needs: PTE Academic and PTE General",
+  types: [
+    {
+      title: "PTE Academic : ",
+      content:
+        "Designed for those seeking to pursue their academic dreams in English-speaking undergraduate or postgraduate programs abroad.",
+    },
+    {
+      title: "PTE General :",
+      content:
+        "A test specifically created to evaluate an individual's English communication abilities and their readiness to integrate into an English-speaking community, particularly for immigrants.",
+    },
+  ],
+};
+
+//Duolingo Page
+
+export const Duolingo_page = {
+  content:
+    "Duolingo is a popular language learning platform that has revolutionized the way people acquire new languages. This user-friendly app offers a diverse range of language courses, making it accessible to learners of all levels. With its gamified approach, Duolingo makes language learning engaging and fun. Whether you're a beginner looking to grasp the basics or an advanced learner seeking fluency, Duolingo provides interactive lessons and exercises to accommodate your language journey. Plus, it's accessible on various devices, allowing you to practice and improve your language skills anytime, anywhere.",
+};
+
+export const Duolingo_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive Duolingo coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the Duolingo test:",
+  subHeading: "Duolingo Test Overview [Total Duration:One hour]",
+  contentPoints:
+    "Our adaptive test is designed to evaluate your proficiency in reading, writing, listening, and speaking. This assessment typically takes about 45 minutes to complete. Additionally, we offer a 10-minute video interview option, where you can share your responses to open-ended questions.",
+  tailContent:
+    "Unlock the potential to attain the Duolingo score that truly counts!",
+};
+
+export const Duolingo_course_eligibility = {
+  mainHeading: "Duolingo Eligibility Requirements",
+  mainContent:
+    "To take the Duolingo exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Age Requirement : ",
+      content:
+        "Unlike age or academic prerequisites, the Duolingo English test doesn't have specific criteria. The only requirements are access to a suitable testing environment, a computer, and other basic equipment.",
+    },
+    {
+      title: "Test Frequency : ",
+      content:
+        "Candidates have the flexibility to take the test as often as they wish. However, there is a limit of three test purchases within a 30-day period. After completing and submitting a test, it's necessary to await the results before proceeding to the next one. The 30-day period begins with the purchase of your first test.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "Candidates receive a total score between 10 and 160 upon completing the Duolingo test. This score is cumulative and not broken down into individual sections. To qualify for top international programs, a score exceeding 120 is typically required.",
+    },
+  ],
+};
+
+// OET Page
+export const OET_page = {
+  content:
+    "The Occupational English Test (OET) is a specialized language proficiency examination designed for healthcare professionals. It assesses their language skills in a medical context, ensuring they can effectively communicate with patients and colleagues. OET covers four key language skills: Listening, Reading, Writing, and Speaking. It is recognized by healthcare boards and institutions worldwide, making it an essential certification for those pursuing careers in the healthcare industry. OET offers a unique opportunity for medical professionals to demonstrate their language competence, helping them embark on successful journeys in healthcare, both at home and abroad.",
+};
+
+export const OET_course_highlight = {
+  mainHeading: "Course Highlights",
+  mainContent:
+    "Discover the comprehensive OET coaching provided by Sri Sairam Consultancy, offering expert guidance in all four key components of the OET test:",
+  subHeading:
+    "Experience the flexibility of OET examination modes, which cater to your convenience and preferences:",
+  contentPoints: [
+    {
+      title: "OET on Physical Paper at a Test Venue : ",
+      content:
+        "Sit for your OET exam at a designated test venue on traditional paper to demonstrate your skills in a familiar format.",
+    },
+    {
+      title: "OET on Computer at a Test Venue : ",
+      content:
+        "Take your OET exam on a computer at a certified test venue, providing a digital approach to assessment.",
+    },
+    {
+      title: "OET at Home : ",
+      content:
+        "Enjoy the convenience of taking your OET exam from the comfort of your own home, offering a flexible and accessible option.",
+    },
+  ],
+};
+
+export const OET_course_eligibility = {
+  mainHeading: "OET Eligibility Requirements",
+  mainContent:
+    "To take the OET exam, you need to meet the following typical eligibility criteria:",
+  contentPoints: [
+    {
+      title: "Countries Accepting OET : ",
+      content:
+        "United States of America, United Arab Emirates, United Kingdom, Ukraine, Spain, Singapore, Qatar, Philippines, NewZealand, Namibia, Malta, Maldives, Ireland, Canada, Australia",
+    },
+    {
+      title: "Who can attend OET : ",
+      content:
+        "Medical professionals or students pursuing advanced studies in the field of medicine.Healthcare professionals specializing in one of the 12 designated fields.",
+    },
+    {
+      title: "Minimum Score : ",
+      content:
+        "To pass the OET exam, you need to score at least 350 on each of the four sub-tests: Listening, Reading, Speaking, and Writing.",
+    },
+  ],
+};
+
+// Manpower page
+export const manPower_content = {
+  content: [
+    "Welcome to SriSaiRam ManpowerService, your gateway to exciting career opportunities both in India and abroad. We specialize in providing manpower services for a wide range of positions, ensuring you find the perfect job that aligns with your skills and aspirations.",
+    "Our extensive network of employers, coupled with our commitment to connecting the right talent with the right job, makes us your trusted partner in the job search journey. Whether you're a fresh graduate looking for your first job, an experienced professional seeking new horizons, or an individual with specialized skills, we have a variety of job openings to suit your needs.",
+    "Explore our job listings and take the next step towards a rewarding career. Join us in your quest for new and fulfilling employment opportunities. Your dream job awaits!",
+  ],
+  careers: [
+    {
+      image: "assets/ourservices/careers/Careers_Sairam.jpg",
+      name: "careers_sairam",
+    },
+    {
+      image: "assets/ourservices/careers/Careers_Sairam.jpg",
+      name: "careers_sairam",
     },
   ],
 };

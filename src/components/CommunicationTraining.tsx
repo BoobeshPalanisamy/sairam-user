@@ -7,8 +7,8 @@ import {
   Typography,
   useMediaQuery,
 } from "@mui/material";
-import { ourServices_communicationTraining } from "../../seed-data/seed-data";
-import theme from "../../theme/theme";
+import { ourServices_communicationTraining } from "../seed-data/seed-data";
+import theme from "../theme/theme";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 import { useNavigate } from "react-router";
 
