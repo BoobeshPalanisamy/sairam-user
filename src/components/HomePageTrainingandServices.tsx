@@ -23,49 +23,50 @@ function HomePageTrainingandServices() {
         justifyContent: "center",
       }}
     >
-      {homePageTrainingAndService.map((service, index) => (
-        <Grid item md={6}>
-          <Accordion
-            key={index}
-            sx={{
-              boxShadow:
-                "15px 20px 19px -8px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1)",
-            }}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
+      {homePageTrainingAndService.length > 0 &&
+        homePageTrainingAndService.map((service, index) => (
+          <Grid item md={6} key={index}>
+            <Accordion
+              sx={{
+                boxShadow:
+                  "15px 20px 19px -8px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1)",
+              }}
             >
-              <Box
-                sx={{
-                  width: "100%",
-                  display: "flex",
-                  alignItems: "center",
-                }}
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
               >
-                <img
-                  src={service.image}
-                  alt={service.name}
-                  height="50px"
-                  width="50px"
-                />
-                <Typography ml={2}>{service.content}</Typography>
-              </Box>
-            </AccordionSummary>
-            <AccordionDetails onClick={() => handleNavigate(service.path)}>
-              <Typography>{service.description}</Typography>
-              <Box
-                sx={{ width: "100%", display: "flex", justifyContent: "end" }}
-              >
-                <Button variant="contained" size="small">
-                  Know More <DoubleArrowIcon style={{ fontSize: "x-small" }} />
-                </Button>
-              </Box>
-            </AccordionDetails>
-          </Accordion>
-        </Grid>
-      ))}
+                <Box
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    src={service.image}
+                    alt={service.name}
+                    height="50px"
+                    width="50px"
+                  />
+                  <Typography ml={2}>{service.content}</Typography>
+                </Box>
+              </AccordionSummary>
+              <AccordionDetails onClick={() => handleNavigate(service.path)}>
+                <Typography>{service.description}</Typography>
+                <Box
+                  sx={{ width: "100%", display: "flex", justifyContent: "end" }}
+                >
+                  <Button variant="contained" size="small">
+                    Know More{" "}
+                    <DoubleArrowIcon style={{ fontSize: "x-small" }} />
+                  </Button>
+                </Box>
+              </AccordionDetails>
+            </Accordion>
+          </Grid>
+        ))}
     </Grid>
   );
 }
