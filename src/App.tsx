@@ -23,45 +23,64 @@ import AcademicGuidance from "./components/AcademicGuidance";
 import JobGuidance from "./components/JobGuidance";
 import ManpowerService from "./components/ManpowerService";
 import ScrollToTop from "./components/ScrollToTop";
+import EnquiryDialogProvider from "./context/EnquiryDialogContext";
+import EnquiryDialog from "./components/EnquiryDialog";
+import NewsAndUpdates from "./pages/newsandupdate/NewsAndUpdates";
 
 function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <SocialMediaNavigator />
-        <ScrollToTop />
-        <Routes>
-          <Route path={paths.ROOT} element={<Layout />}>
-            <Route index element={<Home />}></Route>
-            <Route path={paths.HOME} element={<Home />}></Route>
-            <Route path={paths.CONTACT} element={<Contact />}></Route>
-            <Route path={paths.COUNTRY} element={<Country />}></Route>
-            <Route path={paths.ABOUTUS} element={<AboutUs />}></Route>
-            <Route path={paths.OURSERVICES} element={<Ourservices />}></Route>
-            <Route path={paths.STUDYVISA} element={<StudyVisa />}></Route>
-            <Route path={paths.CAREHOMEVISA} element={<CareHomeVisa />}></Route>
-            <Route path={paths.CAREHOMEVISA} element={<CareHomeVisa />}></Route>
-            <Route
-              path={paths.COMMUNICATIONTRAINING}
-              element={<CommunicationalTrainingPage />}
-            ></Route>
-            <Route path={paths.IELTS} element={<Ielts />}></Route>
-            <Route path={paths.TOEFL} element={<Toelf />}></Route>
-            <Route path={paths.PTE} element={<Pte />}></Route>
-            <Route path={paths.DUOLINGO} element={<Duolingo />}></Route>
-            <Route path={paths.OET} element={<Oet />}></Route>
-            <Route
-              path={paths.INTERVIEWTRAINING}
-              element={<InterviewTraining />}
-            ></Route>
-            <Route
-              path={paths.ACADEMICGUIDANCE}
-              element={<AcademicGuidance />}
-            ></Route>
-            <Route path={paths.JOBGUIDANCE} element={<JobGuidance />}></Route>
-            <Route path={paths.MANPOWER} element={<ManpowerService />}></Route>
-          </Route>
-        </Routes>
+        <EnquiryDialogProvider>
+          <SocialMediaNavigator />
+          <ScrollToTop />
+          <EnquiryDialog />
+          <Routes>
+            <Route path={paths.ROOT} element={<Layout />}>
+              <Route index element={<Home />}></Route>
+              <Route path={paths.HOME} element={<Home />}></Route>
+              <Route path={paths.CONTACT} element={<Contact />}></Route>
+              <Route path={paths.COUNTRY} element={<Country />}></Route>
+              <Route path={paths.ABOUTUS} element={<AboutUs />}></Route>
+              <Route path={paths.OURSERVICES} element={<Ourservices />}></Route>
+              <Route path={paths.STUDYVISA} element={<StudyVisa />}></Route>
+              <Route
+                path={paths.CAREHOMEVISA}
+                element={<CareHomeVisa />}
+              ></Route>
+              <Route
+                path={paths.CAREHOMEVISA}
+                element={<CareHomeVisa />}
+              ></Route>
+              <Route
+                path={paths.COMMUNICATIONTRAINING}
+                element={<CommunicationalTrainingPage />}
+              ></Route>
+              <Route path={paths.IELTS} element={<Ielts />}></Route>
+              <Route path={paths.TOEFL} element={<Toelf />}></Route>
+              <Route path={paths.PTE} element={<Pte />}></Route>
+              <Route path={paths.DUOLINGO} element={<Duolingo />}></Route>
+              <Route path={paths.OET} element={<Oet />}></Route>
+              <Route
+                path={paths.INTERVIEWTRAINING}
+                element={<InterviewTraining />}
+              ></Route>
+              <Route
+                path={paths.ACADEMICGUIDANCE}
+                element={<AcademicGuidance />}
+              ></Route>
+              <Route path={paths.JOBGUIDANCE} element={<JobGuidance />}></Route>
+              <Route
+                path={paths.MANPOWER}
+                element={<ManpowerService />}
+              ></Route>
+              <Route
+                path={paths.NEWSANDUPDATES}
+                element={<NewsAndUpdates />}
+              ></Route>
+            </Route>
+          </Routes>
+        </EnquiryDialogProvider>
       </ThemeProvider>
     </>
   );

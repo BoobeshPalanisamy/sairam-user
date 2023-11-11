@@ -17,4 +17,5 @@ export enum paths {
   ACADEMICGUIDANCE = "/academicguidance",
   JOBGUIDANCE = "/jobguidance",
   MANPOWER = "/manpowerservice",
+  NEWSANDUPDATES = "/newsandupdates",
 }

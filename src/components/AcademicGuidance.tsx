@@ -1,4 +1,13 @@
-import { Box, Card, CardActionArea, CardContent, Container, Grid, Typography, useMediaQuery } from "@mui/material";
+import {
+  Box,
+  Card,
+  CardActionArea,
+  CardContent,
+  Container,
+  Grid,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import { ourServices_academicGuidance } from "../seed-data/seed-data";
 
 function AcademicGuidance() {
@@ -34,7 +43,10 @@ function AcademicGuidance() {
                 }}
               >
                 <CardActionArea>
-                  <Box sx={{ display: "flex", justifyContent: "center" }}>
+                  <Box
+                    sx={{ display: "flex", justifyContent: "center" }}
+                    mt={1}
+                  >
                     <img
                       src={service.image}
                       alt={service.name}
@@ -69,4 +81,4 @@ function AcademicGuidance() {
   );
 }
 
-export default AcademicGuidance
+export default AcademicGuidance;

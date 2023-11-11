@@ -59,7 +59,7 @@ function HomePageTrainingandServices() {
                   sx={{ width: "100%", display: "flex", justifyContent: "end" }}
                 >
                   <Button variant="contained" size="small">
-                    Know More{" "}
+                    Know More
                     <DoubleArrowIcon style={{ fontSize: "x-small" }} />
                   </Button>
                 </Box>

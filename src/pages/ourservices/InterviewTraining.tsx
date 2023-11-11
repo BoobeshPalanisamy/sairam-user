@@ -9,9 +9,11 @@ import {
 import ContactUsForm from "../../components/ContactUsForm";
 import theme from "../../theme/theme";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import { useEnquiryDialogContext } from "../../context/EnquiryDialogContext";
 
 function InterviewTraining() {
   const belowMediumDevice = useMediaQuery("(max-width:600px)");
+  const { handleClickOpen } = useEnquiryDialogContext();
   return (
     <>
       <Grid container>
@@ -83,6 +85,7 @@ function InterviewTraining() {
                 color: theme.palette.primary.main,
               },
             }}
+            onClick={handleClickOpen}
           >
             Book For Mock Test
             <ArrowRightIcon />
@@ -96,6 +99,7 @@ function InterviewTraining() {
                 color: theme.palette.primary.main,
               },
             }}
+            onClick={handleClickOpen}
           >
             Book For Demo Class <ArrowRightIcon />
           </Button>

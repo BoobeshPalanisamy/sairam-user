@@ -5,6 +5,7 @@ import theme from "../../theme/theme";
 import HomePageTrainingandServices from "../../components/HomePageTrainingandServices";
 import { Link } from "react-router-dom";
 import { paths } from "../../routes/paths";
+import NewAndUpdatesPreviewHomePage from "../../components/NewAndUpdatesPreviewHomePage";
 
 function Home() {
   const matches = useMediaQuery("(max-width:600px)");
@@ -195,6 +196,9 @@ function Home() {
         p={3}
       >
         <HomePageTrainingandServices />
+      </Box>
+      <Box>
+        <NewAndUpdatesPreviewHomePage />
       </Box>
       <Box>
         <Typography
