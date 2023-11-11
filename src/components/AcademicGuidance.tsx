@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Card,
   CardActionArea,
   CardContent,
@@ -9,9 +10,15 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { ourServices_academicGuidance } from "../seed-data/seed-data";
+import { useNavigate } from "react-router";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 
 function AcademicGuidance() {
   const matches = useMediaQuery("(min-width:1100px)");
+  const navigate = useNavigate();
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
   return (
     <Box
       sx={{
@@ -34,12 +41,18 @@ function AcademicGuidance() {
           sx={{ display: "flex", justifyContent: "center" }}
         >
           {ourServices_academicGuidance.map((service, index) => (
-            <Grid item md={4} key={index}>
+            <Grid
+              item
+              md={4}
+              key={index}
+              onClick={() => handleNavigate(service.path)}
+            >
               <Card
                 sx={{
                   borderRadius: "20px",
                   boxShadow: "7px 7px 14px #cbced1,-7px -7px 14px #fff;",
                   height: matches ? "420px" : "auto",
+                  padding: "10px",
                 }}
               >
                 <CardActionArea>
@@ -69,6 +82,10 @@ function AcademicGuidance() {
                       sx={{ fontSize: "18px" }}
                     >
                       {service.content}
+                      <Button>
+                        Know More
+                        <KeyboardDoubleArrowRightIcon />
+                      </Button>
                     </Typography>
                   </CardContent>
                 </CardActionArea>

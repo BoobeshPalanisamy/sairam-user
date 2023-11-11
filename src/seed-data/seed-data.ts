@@ -15,53 +15,58 @@ export const ourServices_academicGuidance = [
     name: "Assignment Writing",
     content:
       "Having trouble with assignments? Don’t let yourself down with too many assignments on hand and let us conquer your Assignment troubles for you.",
+    path: "/academicworks",
   },
   {
     image: "assets/ourservices/academicGuidance/study_sairam.png",
     name: "Dissertation Writing",
     content:
       "Don’t let lengthy dissertations get the best of you and let our experienced professionals finalize your dissertation on your desired topic.",
+    path: "/academicworks",
   },
   {
     image: "assets/ourservices/academicGuidance/research_sairam.png",
     name: "Research Paper Writing",
     content:
       "No more tedious research paper writing or editing. With our industry-specific experts, get your papers approved without any hassle.",
+    path: "/academicworks",
   },
   {
     image: "assets/ourservices/academicGuidance/finance_sairam.png",
     name: "Financial Analysis",
     content:
       "Are you one of those students who hate accountings or don’t like dealing with numbers? Get the perfect financial assignment help from internationally experienced professional writers who are academically qualified.",
+    path: "/academicworks",
   },
   {
     image: "assets/ourservices/academicGuidance/projects_sairam.png",
     name: "Project Works",
     content:
       "Are you sitting all day and night writing down codes you don’t know about? Aren’t programming codes a headache for all you students? Leave it to our best IT experts to do the tiring coding for you.",
+    path: "/academicworks",
   },
 ];
 
 export const ourServices_jobGuidance = [
   {
-    title: "PDP",
+    title: "PDP (Personal Development Plan) Writing:",
     content:
-      "The PDP is a crucial aspect of e-commerce websites, providing detailed information about products, including features, prices, and customer reviews.",
+      "Invest in your personal and professional growth with a meticulously crafted Personal Development Plan. Our writers work closely with you to outline clear goals, identify areas for improvement, and create a roadmap for continuous advancement in your career.",
   },
   {
-    title: "Career Plan",
+    title: "Career Plan Writing:",
     content:
-      "A well-defined career plan helps individuals set clear goals, create a path to achieve them, and make informed decisions about their professional development.",
+      "Plan your career trajectory with precision through our Career Plan Writing Service. We help you define short and long-term goals, identify potential challenges, and strategize actionable steps for a fulfilling and successful professional journey.",
   },
   {
-    title: "CV Writing",
+    title: "CV Writing Service",
     content:
-      "Effective CV writing is about showcasing your skills and experience concisely, highlighting your qualifications, and making a strong impression on potential employers.",
+      "Craft a compelling Curriculum Vitae (CV) that not only showcases your skills and accomplishments but also captures the attention of hiring managers. Our expert writers tailor each CV to highlight your unique strengths, ensuring you stand out in a competitive job market.",
   },
   {
-    title: "Profile Writing",
+    title: "Profile Writing Service:",
     content:
-      "Writing a compelling online profile, whether for social media, professional networking, or dating, can help you stand out and connect with your desired audience effectively.",
+      "Your online presence matters. Whether it's LinkedIn, professional websites, or other platforms, our Profile Writing Service ensures your digital persona reflects your achievements and aspirations accurately. We optimize your profiles to attract opportunities and connections in your industry.",
   },
 ];
 
@@ -154,7 +159,7 @@ export const homePageTrainingAndService = [
     content: "Project & Assignment Works",
     description:
       "We offer assistance and guidance for academic project works, ensuring you meet your project goals with excellence and our assignment writing services help students submit high-quality assignments that meet academic standards and contribute to their academic success.",
-    path: "/academicguidance",
+    path: "/academicworks",
   },
   {
     image: "assets/ourservices/academicGuidance/finance_sairam.png",
@@ -162,7 +167,7 @@ export const homePageTrainingAndService = [
     content: "Financial Analysis",
     description:
       "Get expert support for financial analysis, enabling you to make informed decisions and excel in finance-related projects or careers.",
-    path: "/academicguidance",
+    path: "/academicworks",
   },
   {
     image: "assets/ourservices/academicGuidance/research_sairam.png",
@@ -170,7 +175,7 @@ export const homePageTrainingAndService = [
     content: "Research Paper Writing",
     description:
       "Our research paper writing services assist you in producing well-researched, academically sound research papers for various disciplines and purposes.",
-    path: "/academicguidance",
+    path: "/academicworks",
   },
   {
     image: "assets/home/serviceandtraining/Manpower_sairam.png",
@@ -747,3 +752,31 @@ export const newsAndUpdate = [
     url: "https://timesofindia.indiatimes.com/world/uk/uk-visa-fee-hike-effective-this-week-how-will-it-impact-indians/articleshow/104138749.cms?from=mdr",
   },
 ];
+
+// AcademicWorksPage
+export const academicWorksPage = {
+  ourWorks: [
+    "Dissertation  Writing",
+    "Research paper",
+    "Assignment Works",
+    "Essay",
+    "Case Study",
+    "Coursework",
+    "Term paper",
+    "Research proposal",
+    "Project Works",
+    "Financial Analysis",
+  ],
+  academic_disciplines: [
+    "Business & Management",
+    "Data Science",
+    "Cyber Security",
+    "Psychology",
+    "Education",
+    "English, Literature & Philology",
+    "Health Sciences & Nursing",
+    "Social & Political Sciences",
+    "Sociology",
+    "And 40 more...",
+  ],
+};

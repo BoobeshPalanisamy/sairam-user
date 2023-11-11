@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Card,
-  Container,
-  Grid,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Card, Container, Grid, Typography } from "@mui/material";
 import theme from "../theme/theme";
 import ReactPlayer from "react-player";
 import { newsAndUpdate } from "../seed-data/seed-data";

@@ -119,7 +119,7 @@ function Home() {
             </Link>
             &nbsp; preparation,&nbsp;
             <Link
-              to={paths.ACADEMICGUIDANCE}
+              to={paths.ACADEMICWORKS}
               style={{
                 textDecoration: "none",
                 color: theme.palette.secondary.main,

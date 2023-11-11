@@ -32,6 +32,15 @@ function JobGuidance() {
             >
               Job <span style={{ color: "orange" }}>Guidance</span>
             </Typography>
+            <Typography textAlign="justify" fontWeight="bolder" fontSize="20px">
+              Unlock Your Professional Potential with Our Writing Services
+            </Typography>
+            <Typography textAlign="justify">
+              Are you ready to make a lasting impression on potential employers
+              and take charge of your career? At SaiRam, we offer a suite of
+              specialized writing services designed to elevate your professional
+              profile and set you on the path to success.
+            </Typography>
             {ourServices_jobGuidance.map((data, index) => (
               <Box key={index}>
                 <Typography
