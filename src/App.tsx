@@ -26,6 +26,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import EnquiryDialogProvider from "./context/EnquiryDialogContext";
 import EnquiryDialog from "./components/EnquiryDialog";
 import NewsAndUpdates from "./pages/newsandupdate/NewsAndUpdates";
+import AcademicWorksPage from "./pages/ourservices/AcademicWorksPage";
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
               <Route
                 path={paths.NEWSANDUPDATES}
                 element={<NewsAndUpdates />}
+              ></Route>
+              <Route
+                path={paths.ACADEMICWORKS}
+                element={<AcademicWorksPage />}
               ></Route>
             </Route>
           </Routes>
