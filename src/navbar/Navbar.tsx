@@ -143,14 +143,16 @@ function Navbar() {
                     className="logo-img"
                     style={{ margin: "10px" }}
                   />
-                  <IconButton onClick={toggleDrawer("top", false)}>
-                    <CloseIcon
-                      sx={{
-                        fontSize: "35px",
-                        color: "#f2465d",
-                      }}
-                    />
-                  </IconButton>
+                  <Box>
+                    <IconButton onClick={toggleDrawer("top", false)}>
+                      <CloseIcon
+                        sx={{
+                          fontSize: "35px",
+                          color: "#f2465d",
+                        }}
+                      />
+                    </IconButton>
+                  </Box>
                 </Box>
 
                 {navMenus.map((menu, index) => (

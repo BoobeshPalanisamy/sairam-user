@@ -34,19 +34,6 @@ body {
   transform: scale(1.05);
 }
 
-/* 
-.slick-prev:before {
-  color: #000;
-  font-size: 25px;
-  margin-right: -20px;
-}
-
-.slick-next:before {
-  color: #000;
-  font-size: 25px;
-  margin-left: -20px;
-} */
-
 .homepage-banner {
   filter: brightness(70%);
   -webkit-filter: brightness(70%);

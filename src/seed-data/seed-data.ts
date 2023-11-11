@@ -705,3 +705,45 @@ export const manPower_content = {
     },
   ],
 };
+
+// NewsAndUpdate Page
+export const newsAndUpdate = [
+  {
+    mediaURL: "https://www.youtube.com/watch?v=5RgiYd8pGAA",
+    type: "video",
+    content:
+      "Canada Good NEWS VISA within two weeks be alert! & Uk Jan Intake limited time",
+    url: "https://www.youtube.com/watch?v=5RgiYd8pGAA",
+  },
+  {
+    mediaURL:
+      "https://static.toiimg.com/thumb/msid-105047296,imgsize-707812,width-400,resizemode-4/105047296.jpg",
+    type: "image",
+    content:
+      "UK Visa fees hike effective this week. How will it impact Indians?",
+    url: "https://timesofindia.indiatimes.com/world/uk/uk-visa-fee-hike-effective-this-week-how-will-it-impact-indians/articleshow/104138749.cms?from=mdr",
+  },
+  {
+    mediaURL: "https://www.youtube.com/watch?v=5RgiYd8pGAA",
+    type: "video",
+    content:
+      "Canada Good NEWS VISA within two weeks be alert! & Uk Jan Intake limited time",
+    url: "https://www.youtube.com/watch?v=5RgiYd8pGAA",
+  },
+  {
+    mediaURL:
+      "https://static.toiimg.com/thumb/msid-105047296,imgsize-707812,width-400,resizemode-4/105047296.jpg",
+    type: "image",
+    content:
+      "UK Visa fees hike effective this week. How will it impact Indians?",
+    url: "https://timesofindia.indiatimes.com/world/uk/uk-visa-fee-hike-effective-this-week-how-will-it-impact-indians/articleshow/104138749.cms?from=mdr",
+  },
+  {
+    mediaURL:
+      "https://static.toiimg.com/thumb/msid-105047296,imgsize-707812,width-400,resizemode-4/105047296.jpg",
+    type: "image",
+    content:
+      "UK Visa fees hike effective this week. How will it impact Indians?",
+    url: "https://timesofindia.indiatimes.com/world/uk/uk-visa-fee-hike-effective-this-week-how-will-it-impact-indians/articleshow/104138749.cms?from=mdr",
+  },
+];
