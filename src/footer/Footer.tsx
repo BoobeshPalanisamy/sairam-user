@@ -29,7 +29,7 @@ function Footer() {
             sx={{ display: "flex", justifyContent: "center" }}
           >
             <Grid item md={4} sx={{ display: matches ? "none" : "block" }}>
-              <h1 style={{ margin: 0 }}>
+              <h1 style={{ margin: 0, fontFamily: "cursive" }}>
                 Sri Sairam Academy & Career Services
               </h1>
               <h3 style={{ fontWeight: "100", paddingTop: "10px", margin: 0 }}>
@@ -38,7 +38,7 @@ function Footer() {
               </h3>
             </Grid>
             <Grid item md={4}>
-              <h1 style={{ margin: 0 }}>Our Services</h1>
+              <h1 style={{ margin: 0, fontFamily: "cursive" }}>Our Services</h1>
               <List sx={{ fontSize: "20px" }} dense>
                 {services.map((service, index) => (
                   <ListItem key={index}>{service.service}</ListItem>

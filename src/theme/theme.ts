@@ -14,7 +14,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "catamaran-semiBold",
+    fontFamily: "'Founders Grotesk Text',sans-serif",
     button: {
       textTransform: "none",
       fontWeight: 500,

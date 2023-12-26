@@ -64,7 +64,7 @@ function CommunicationTraining() {
                   <Typography
                     sx={{
                       textAlign: "justify",
-                      fontSize: "18px",
+                      fontSize: "16px",
                       padding: "10px 0",
                     }}
                   >
@@ -82,6 +82,7 @@ function CommunicationTraining() {
                       sx={{
                         backgroundColor: theme.palette.secondary.main,
                         marginBottom: "5px",
+                        fontFamily: "cursive",
                       }}
                     >
                       Learn More

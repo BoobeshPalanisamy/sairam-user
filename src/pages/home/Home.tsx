@@ -36,28 +36,41 @@ function Home() {
                 fontWeight: "bolder",
                 color: "#fff",
                 padding: "0 10px",
+                fontFamily: "tahoma",
               }}
             >
-              Sri SaiRam Academic and Career Consultancy
+              Sri SaiRam Academy and Career Consultancy
             </h1>
             <Typography
               sx={{
                 fontSize: matches ? "30px" : "40px",
                 fontWeight: "700",
                 color: "orange",
+                fontFamily: "cursive",
               }}
             >
-              Study,Work,Live Abroad
+              Study, Work, Live Abroad
             </Typography>
           </Box>
         </Box>
       </Box>
       <Container>
         <Box>
-          <h1 style={{ textAlign: "center", padding: "20px 0" }}>
+          <h1
+            style={{
+              textAlign: "center",
+              padding: "20px 0",
+              fontFamily: "'Lucida Handwriting',cursive",
+            }}
+          >
             Welcome To &nbsp;
-            <span style={{ color: theme.palette.primary.main }}>
-              Sri SaiRam Academic and Career Consultancy
+            <span
+              style={{
+                color: theme.palette.primary.main,
+                fontFamily: "'Lucida Handwriting',cursive",
+              }}
+            >
+              Sri SaiRam Academy and Career Consultancy
             </span>
           </h1>
           <Typography
@@ -65,6 +78,8 @@ function Home() {
               textAlign: "center",
               paddingBottom: "20px",
               fontSize: matches ? "15px" : "20px",
+              fontFamily: "Garamond,serif",
+              fontWeight: "600",
             }}
           >
             Welcome to Sri SaiRam Academic and Career Consultancy! We are your
@@ -180,6 +195,7 @@ function Home() {
           margin: "0",
           paddingTop: "10px",
           backgroundColor: "#d0f0f7",
+          fontFamily: "cursive",
         }}
       >
         Our &nbsp;
@@ -203,7 +219,12 @@ function Home() {
       <Box>
         <Typography
           variant="h4"
-          sx={{ textAlign: "center", margin: "30px 0", fontWeight: "bolder" }}
+          sx={{
+            textAlign: "center",
+            margin: "30px 0",
+            fontWeight: "bolder",
+            fontFamily: "cursive",
+          }}
         >
           Hear from Our Customers
         </Typography>
@@ -215,6 +236,7 @@ function Home() {
             textAlign: "center",
             padding: "20px 0",
             fontSize: "35px",
+            fontFamily: "cursive",
           }}
         >
           Choose Your &nbsp;

@@ -21,6 +21,7 @@ function NewAndUpdatesPreviewHomePage() {
             fontSize: "35px",
             margin: "0",
             paddingTop: "20px",
+            fontFamily: "cursive",
           }}
         >
           Get Our Live &nbsp;

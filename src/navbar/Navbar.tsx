@@ -13,6 +13,7 @@ import React, { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import { useLocation, useNavigate } from "react-router";
 import { paths } from "../routes/paths";
+import { Link } from "react-router-dom";
 
 type Anchor = "top";
 
@@ -61,11 +62,13 @@ function Navbar() {
         }}
       >
         <Toolbar>
-          <img
-            src="assets/Logo.jpg"
-            alt="srisairamconsultancy"
-            className="logo-img"
-          />
+          <Link to={paths.HOME}>
+            <img
+              src="assets/Logo.jpg"
+              alt="srisairamconsultancy"
+              className="logo-img"
+            />
+          </Link>
           <Typography
             variant="h6"
             noWrap
@@ -77,9 +80,10 @@ function Navbar() {
               color: theme.palette.primary.main,
               textDecoration: "none",
               fontSize: "25px",
+              fontFamily: "timesnewroman",
             }}
           >
-            Sri SaiRam Academic and Career Consultancy
+            Sri SaiRam Academy and Career Consultancy
           </Typography>
           <Box
             sx={{
@@ -100,18 +104,16 @@ function Navbar() {
                   cursor: "pointer",
                   padding: "5px",
                   color:
-                    location.pathname === menu.linkURL
-                      ? "#fff"
-                      : theme.palette.secondary.main,
+                    location.pathname === menu.linkURL ? "#fff" : "#ef9e08",
                   backgroundColor:
                     location.pathname === menu.linkURL
-                      ? theme.palette.secondary.main
+                      ? "orange"
                       : "transparent",
                   borderRadius: "50px",
                   "&:hover": {
-                    background: theme.palette.primary.main,
+                    background: "#ffc966",
                     color: "white",
-                    paddingLeft: "10px",
+                    paddingLeft: "5px",
                   },
                 }}
                 key={index}

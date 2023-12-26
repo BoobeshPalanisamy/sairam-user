@@ -27,7 +27,10 @@ export default function EnquiryDialog() {
           }}
         >
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-            <Typography variant="h4" sx={{ color: "black", mb: 2 }}>
+            <Typography
+              variant="h4"
+              sx={{ color: "black", mb: 2, fontFamily: "cursive" }}
+            >
               Contact Us
             </Typography>
             <Box>

@@ -79,10 +79,14 @@ function AcademicGuidance() {
                     <Typography
                       variant="body2"
                       color="text.secondary"
-                      sx={{ fontSize: "18px" }}
+                      sx={{ fontSize: "16px" }}
                     >
                       {service.content}
-                      <Button>
+                      <Button
+                        sx={{
+                          fontFamily: "cursive",
+                        }}
+                      >
                         Know More
                         <KeyboardDoubleArrowRightIcon />
                       </Button>

@@ -15,7 +15,7 @@ function ContactAddress(props: IProps) {
   const { color } = props;
   return (
     <>
-      <h1 style={{ margin: 0 }}>Contact Us </h1>
+      <h1 style={{ margin: 0, fontFamily: "cursive" }}>Contact Us </h1>
       <Box sx={{ display: "flex", paddingTop: "10px" }}>
         <LocalPhoneIcon
           sx={{

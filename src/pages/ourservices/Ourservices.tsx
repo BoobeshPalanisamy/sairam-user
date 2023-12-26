@@ -70,7 +70,10 @@ function Ourservices() {
                     <Button
                       size="small"
                       variant="contained"
-                      sx={{ background: theme.palette.secondary.main }}
+                      sx={{
+                        background: theme.palette.secondary.main,
+                        fontFamily: "cursive",
+                      }}
                     >
                       Read More <DoubleArrowIcon sx={{ fontSize: "x-small" }} />
                     </Button>
@@ -129,7 +132,10 @@ function Ourservices() {
                   <Button
                     size="small"
                     variant="contained"
-                    sx={{ background: theme.palette.secondary.main }}
+                    sx={{
+                      background: theme.palette.secondary.main,
+                      fontFamily: "cursive",
+                    }}
                   >
                     Read More <DoubleArrowIcon sx={{ fontSize: "x-small" }} />
                   </Button>
