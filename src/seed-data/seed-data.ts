@@ -79,7 +79,7 @@ export const countryDetails = [
       " The UK is renowned for its world-class universities, offering top-notch education, and its vibrant cities including London, which is a global financial hub.",
     title: "UK",
     content:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " The United Kingdom (UK) is a sovereign country located off the northwestern coast of mainland Europe. Comprising four constituent countries – England, Scotland, Wales, and Northern Ireland – the UK boasts a rich historical and cultural tapestry. London, the capital and largest city of the UK, stands as a global metropolis renowned for its iconic landmarks, including the Tower of London, Buckingham Palace, and the British Museum. A melting pot of diverse cultures and a financial hub, London offers a unique blend of tradition and modernity. Its vibrant arts scene, encompassing theaters like the West End, adds to the city's allure, making it a captivating destination for residents and visitors alike.",
   },
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpg",
@@ -88,7 +88,7 @@ export const countryDetails = [
       " Canada is renowned for its world-class universities, offering top-notch education, and its vibrant cities including Toronto, which is a global financial hub.",
     title: "Canada",
     content:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " Canada, located in North America, is renowned for its vast and diverse landscapes, spanning from the majestic Rocky Mountains to the picturesque coastal regions. As the second-largest country globally, Canada boasts a rich cultural mosaic, with influences from Indigenous peoples, French and British settlers, and a vibrant immigrant population. Known for its commitment to multiculturalism, Canada has a reputation for being welcoming and inclusive. The nation's capital is Ottawa, and its largest cities, including Toronto, Vancouver, and Montreal, showcase a blend of modernity and natural beauty. With a thriving economy, strong education system, and universal healthcare, Canada stands out as a global leader in quality of life.",
   },
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpg",
@@ -97,7 +97,7 @@ export const countryDetails = [
       " The USA is renowned for its world-class universities, offering top-notch education, and its vibrant cities including New York, which is a global financial hub.",
     title: "USA",
     content:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " The United States of America (USA) is a diverse and vast country located in North America, bordered by Canada to the north, Mexico to the south, the Atlantic Ocean to the east, and the Pacific Ocean to the west. Known for its cultural melting pot, the USA is home to people of various ethnicities, religions, and backgrounds. It is a constitutional republic with a rich history, marked by events such as the Declaration of Independence in 1776 and the ratification of its constitution in 1788. The country is renowned for its economic prowess, technological innovation, and global influence across politics, economics, and culture.",
   },
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpg",
@@ -106,7 +106,7 @@ export const countryDetails = [
       " New Zealand is renowned for its world-class universities, offering top-notch education, and its natural beauty.",
     title: "New Zealand",
     content:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " New Zealand, a captivating island nation in the southwestern Pacific Ocean, is renowned for its stunning landscapes, comprising majestic mountains, pristine beaches, and lush forests. Home to a diverse array of flora and fauna, New Zealand is a haven for nature enthusiasts and adventure seekers alike. The country is famous for its unique Maori culture, which significantly influences its art, language, and traditions. With friendly locals, a rich cultural tapestry, and a wealth of outdoor activities, New Zealand offers an unforgettable experience for travelers looking to explore its scenic beauty and vibrant heritage.",
   },
   {
     cardImageUrl: "assets/country/sairam_country_banner.jpg",
@@ -115,7 +115,7 @@ export const countryDetails = [
       " Australia is renowned for its world-class universities, offering top-notch education, and its diverse landscapes.",
     title: "Australia",
     content:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley   of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      " Australia, a vast and diverse continent, is known for its stunning landscapes, ranging from the iconic Sydney Opera House and the expansive Great Barrier Reef to the rugged Outback. This country, located in the Southern Hemisphere, boasts a unique blend of vibrant cities, such as Sydney and Melbourne, along with a rich indigenous culture that dates back thousands of years. Renowned for its diverse wildlife, including kangaroos and koalas, Australia offers outdoor enthusiasts an array of adventures, from surfing on pristine beaches to exploring the ancient beauty of the Red Centre. With a laid-back lifestyle and friendly locals, Australia is a destination that captivates visitors with its natural wonders and unique charm.",
   },
 ];
 
